@@ -1,0 +1,18 @@
+# Hugo default output directory
+/public
+
+# Do not check in generated files
+/resources/_gen
+
+# Do not check in the images - they are huge and backed up elsewhere
+/static/images
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
