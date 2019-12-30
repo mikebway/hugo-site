@@ -2,6 +2,7 @@
 title: "About"
 date: "2019-12-28"
 image: '2015-2019/A7R00965-0900.jpg'
+thumb: '2015-2019/A7R00965-0096.jpg'
 ---
 
 > Artists sometimes claim that they work without thought of an audience - that they make pictures just for themselves. We are not deceived. The only reward worth that much effort is a response, and if no one pays attention, or if the artist cannot live on hope, then he or she is lost.

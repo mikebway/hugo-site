@@ -1,7 +1,8 @@
 ---
 title: "Color Returning"
-date: 2019-12-28T12:48:04-06:00
+date: 2019-12-28T12:03:00-06:00
 image: '2015-2019/A7R00174-0900.jpg'
+thumb: '2015-2019/A7R00174-0096.jpg'
 ---
 
 > Color is bullshit.

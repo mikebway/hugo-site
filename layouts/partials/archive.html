@@ -1,0 +1,18 @@
+<div class='archive wrap mt'>
+  <h1>{{ .Title }}</h1>
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "").ByPublishDate.Reverse }}
+  {{- range $paginator.Pages }}
+  <a class='archive_item' href='{{ .Permalink }}'>
+    {{- with .Params.thumb -}}
+    <img src='{{ absURL (printf "images/%s" .) }}' alt='{{ . }}' class='post_thumbnail'>
+    {{- end -}}
+    {{- with .Date -}}
+    <time class='pale'>{{ dateFormat "January 2006" . }}</time>
+    {{- end -}}
+    <h3 class='article_title'>{{ .Title }}</h3>
+    {{- with .Summary -}}
+    <p>{{ . | truncate 150 }}</p>
+    {{- end -}}
+  </a>
+  {{- end -}}
+</div>

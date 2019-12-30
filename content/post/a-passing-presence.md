@@ -1,7 +1,8 @@
 ---
 title: "A Passing Presence"
-date: 2019-12-28T12:07:31-06:00
+date: 2019-12-28T12:02:00-06:00
 image: '2013-2014/7210150-0900.jpg'
+thumb: '2013-2014/7210150-0096.jpg'
 ---
 
 >The photograph isn’t what was photographed. It’s something else. It’s a new fact.
