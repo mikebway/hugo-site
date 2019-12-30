@@ -8,6 +8,6 @@ image: '2015-2019/A7R00965-0900.jpg'
 >
 > ~ Robert Adams
 
-Mike Broadway is a partner, a parent still in training after 25 years, a software developer, a some-time photographer, a public radio supporter, and an occasional reader of long books. He grew up in Britain but now lives and works in Austin, Texas.
+Mike Broadway is a partner, a parent (still in training after 25 years), a software developer, a some-time photographer, a public radio supporter, a movie goer, and an occasional reader of long books. He grew up in Britain but has lived and worked in Austin, Texas, since 1990.
 
 An archive of an earlier, and less selective, version of this web site can be found at <http://archive.mikebroadway.com/>.

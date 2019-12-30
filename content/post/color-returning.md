@@ -6,7 +6,7 @@ image: '2015-2019/A7R00174-0900.jpg'
 
 > Color is bullshit.
 >
-> ~ Henri Cartier-Bresson (speaking to William Eggleston)
+> ~ Henri Cartier-Bresson (reported by William Eggleston)
 
 > Of all God’s gifts to the sighted man, color is holiest, the most divine, the most solemn.
 >
@@ -16,4 +16,4 @@ image: '2015-2019/A7R00174-0900.jpg'
 >
 > ~ Georgia O’Keeffe
 
-For some four years or so, I made no color images. Then, one day, I found color once more.
+For four years or so, I made no color images. Then, one day, color found me once more.

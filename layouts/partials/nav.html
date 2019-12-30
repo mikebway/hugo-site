@@ -1,0 +1,9 @@
+<div class='nav-drop'>
+  <div class='nav-body'>
+    <div class='nav-close'></div>
+    {{ range .Site.Data.menu }}
+    <a href='{{ absURL .url }}' class='nav_item'>{{ .item }}</a>
+    {{ end }}
+  </div>
+</div>
+{{ partial "header.html" . }}
