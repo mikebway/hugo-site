@@ -1,4 +1,6 @@
-- item: Galleries
+- item: Home
   url: ""
+- item: Galleries
+  url: post/
 - item: About
   url: about/
