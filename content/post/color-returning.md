@@ -3,6 +3,7 @@ title: "Color Returning"
 date: 2019-12-28T12:03:00-06:00
 image: '2015-2019/A7R00174-0900.jpg'
 thumb: '2015-2019/A7R00174-0096.jpg'
+imglist: 'color-returning.csv'
 ---
 
 > Color is bullshit.

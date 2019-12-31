@@ -14,4 +14,14 @@
     </div>
   </div>
 </div>
+{{ with .Params.imglist }}
+<div class=post_imglist>
+  {{ $csvurl := absURL (printf "images/%s" .) }}
+  {{ range $r := getCSV "|" $csvurl }}
+  {{ $imgroot := index $r 0 }}
+  {{ $imgtitle := index $r 1 }}
+  {{ partial "imglist-item.html" (dict "imgroot" $imgroot "imgtitle" $imgtitle ) }}
+  {{ end }}
+</div>
+{{ end }}
 {{ end }}
