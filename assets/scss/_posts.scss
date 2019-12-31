@@ -8,7 +8,6 @@
   }
   img:not(.icon) {
     @media screen and (min-width: 1025px) {
-      width: 100vw;
       max-width: 1024px;
     }
   }
@@ -36,9 +35,7 @@
     padding: 1rem 1.25rem;
   }
   &_body {
-    img {
-      width: 100%;
-    }
+    margin: 0;
   }
   &_inner {
     a{
@@ -133,7 +130,6 @@
     color: var(--light);
   }
   &_thumbnail {
-    width: 100%;
     margin: 0;
   }
   &_nav {
