@@ -1,7 +1,7 @@
 baseurl = "http://www.mikebroadway.com.s3-website-us-east-1.amazonaws.com/"  # Include trailing slash
-title = "Mike Broadway, Photographs"
+title = "Photographs"
 theme = "newsroom"
-author = "mikebway"
+author = "Mike Broadway"
 copyright = "Copyright © 2019, Mike Broadway"
 canonifyurls = true
 paginate = 3
@@ -12,4 +12,7 @@ paginate = 3
   
   # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
   # twitter = "" # twitter handle e.g @weru
+
+  mainTitle = "Photographs"
+  subTitle = "Mike Broadway"
 
