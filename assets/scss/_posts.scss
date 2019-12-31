@@ -133,7 +133,7 @@
     color: var(--light);
   }
   &_thumbnail {
-    width: 10%;
+    width: 100%;
     margin: 0;
   }
   &_nav {
@@ -225,7 +225,19 @@
 }
 .archive {
   &_item {
-    display: grid;
-    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 1.8rem 0;
+  }
+  &_thumbnail {
+    width: 120px;
+    margin: 2.3rem 0.8rem 0 0;
+  }
+  &_summary {
+    margin: 0 0 0 0;
+  }
+  img {
+    margin: 0;
+    padding: 0;
   }
 }

@@ -3,16 +3,22 @@
   {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "").ByPublishDate.Reverse }}
   {{- range $paginator.Pages }}
   <a class='archive_item' href='{{ .Permalink }}'>
-    {{- with .Params.thumb -}}
-    <img src='{{ absURL (printf "images/%s" .) }}' alt='{{ . }}' class='post_thumbnail'>
-    {{- end -}}
-    {{- with .Date -}}
-    <time class='pale'>{{ dateFormat "January 2006" . }}</time>
-    {{- end -}}
-    <h3 class='article_title'>{{ .Title }}</h3>
-    {{- with .Summary -}}
-    <p>{{ . | truncate 150 }}</p>
-    {{- end -}}
+    <div class="archive_thumbnail">
+      {{- with .Params.thumb -}}
+      <img src='{{ absURL (printf "images/%s" .) }}' alt='{{ . }}'>
+      {{- end -}}
+    </div>
+    <div class="archive_summary">
+      {{- with .Date -}}
+      <time class='pale'>{{ dateFormat "January 2006" . }}</time>
+      {{- end -}}
+      <h3 class='article_title'>{{ .Title }}</h3>
+      <p>
+        {{- with .Summary -}}
+        {{ . | truncate 150 }}
+        {{- end -}}
+      </p>
+    </div>
   </a>
   {{- end -}}
 </div>
