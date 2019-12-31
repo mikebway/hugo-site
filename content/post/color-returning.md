@@ -3,7 +3,17 @@ title: "Color Returning"
 date: 2019-12-28T12:03:00-06:00
 image: '2015-2019/A7R00174-0900.jpg'
 thumb: '2015-2019/A7R00174-0096.jpg'
-imglist: 'color-returning.csv'
+imglist:
+  - root: A7R00174
+    title: Vatican Museum, 2019
+  - root: _A151167
+    title: Barcelona, 2017
+  - root: _7020805
+    title: Glasgow, 2018
+  - root: _DSC0290
+    title: Sydney, 2018
+  - root: A7R01416
+    title: Hornchurch, 2019
 ---
 
 > Color is bullshit.
