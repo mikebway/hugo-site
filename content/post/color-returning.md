@@ -6,12 +6,38 @@ thumb: '2015-2019/A7R00174-0096.jpg'
 imglist:
   - root: 2015-2019/A7R00174
     title: Vatican Museum, 2019
+  - root: 2015-2019/_A151006
+    title: Barcelona, 2017
   - root: 2015-2019/_A151167
     title: Barcelona, 2017
-  - root: 2015-2019/_7020805
+  - root: 2015-2019/_A140755
+    title: Barcelona, 2017
+  - root: 2015-2019/_A140801
+    title: Barcelona, 2017
+  - root: 2015-2019/_A200073
+    title: Barcelona, 2017
+  - root: 2015-2019/_A161279
+    title: Barcelona, 2017
+  - root: 2015-2019/_A170056
     title: Glasgow, 2018
   - root: 2015-2019/_DSC0290
     title: Sydney, 2018
+  - root: 2015-2019/_DSC0250
+    title: Sydney, 2018
+  - root: 2015-2019/A7R00920
+    title: Rome, 2019
+  - root: 2015-2019/A7R00956
+    title: Rome, 2019
+  - root: 2015-2019/A7R00965
+    title: Rome, 2019
+  - root: 2015-2019/A7R00982
+    title: Rome, 2019
+  - root: 2015-2019/A7R01285
+    title: Rome, 2019
+  - root: 2015-2019/A7R01288
+    title: Rome, 2019
+  - root: 2015-2019/A7R01308
+    title: Rome, 2019
   - root: 2015-2019/A7R01416
     title: Hornchurch, 2019
 ---

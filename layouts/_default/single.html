@@ -11,12 +11,15 @@
       </div>
     </div>
   </div>
-</div>
-{{ with .Params.imglist }}
-<div id='lightgallery'>
-  {{ range . }}
-  {{ partial "gallery.html" (dict "imgroot" .root "imgtitle" .title ) }}
-  {{ end }}
+  {{ with .Params.imglist }}
+  <div id='lightgallery' class='post_gallery'>
+    {{ range . }}
+    {{ partial "gallery.html" (dict "imgroot" .root "imgtitle" .title ) }}
+    {{ end }}
+  </div>
+  <div>
+    <p>... tap any thumbnail to see the full size images.</p>
+  </div>
 </div>
 {{ end }}
 {{ end }}
