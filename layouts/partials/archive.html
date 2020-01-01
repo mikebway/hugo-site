@@ -9,13 +9,10 @@
       {{- end -}}
     </div>
     <div class="archive_summary">
-      {{- with .Date -}}
-      <time class='pale'>{{ dateFormat "January 2006" . }}</time>
-      {{- end -}}
       <h3 class='article_title'>{{ .Title }}</h3>
       <p>
         {{- with .Summary -}}
-        {{ . | truncate 150 }}
+        {{ . | truncate 90 }}
         {{- end -}}
       </p>
     </div>
