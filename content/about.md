@@ -16,3 +16,5 @@ An archive of an earlier, less selective, version of this web site can be found 
 ---
 
 The site was implemented using [Hugo](https://gohugo.io/). Many thanks to [weru](https://github.com/onweru/newsroom) for developing the [Newsroom](https://themes.gohugo.io/newsroom/) theme from which the design of this site was derived.
+
+Image gallery display is handled by [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/).

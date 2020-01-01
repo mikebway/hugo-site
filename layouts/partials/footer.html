@@ -7,5 +7,12 @@
         style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
   </p>
 </footer>
-{{ $scripts := resources.Get "js/index.js" | resources.ExecuteAsTemplate "js/index.js" . }}
+{{ $scripts := resources.Get "js/index.js" | resources.ExecuteAsTemplate "js/index.js" . | resources.Minify }}
 <script src='{{ $scripts.Permalink }}'></script>
+{{ with .Params.imglist }}
+{{ $lgjs := resources.Get "js/lightgallery.js" | resources.Minify }}
+<script src='{{ $lgjs.Permalink }}'></script>
+<script>
+  lightGallery(document.getElementById('lightgallery'));
+</script>
+{{ end }}

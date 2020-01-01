@@ -13,9 +13,9 @@
   </div>
 </div>
 {{ with .Params.imglist }}
-<div class=post_imglist>
+<div id='lightgallery'>
   {{ range . }}
-  {{ partial "imglist-item.html" (dict "imgroot" .root "imgtitle" .title ) }}
+  {{ partial "gallery.html" (dict "imgroot" .root "imgtitle" .title ) }}
   {{ end }}
 </div>
 {{ end }}
