@@ -19,7 +19,7 @@ imglist:
   - root: 2015-2019/_A161279
     title: Barcelona, 2017
   - root: 2015-2019/_A170056
-    title: Glasgow, 2018
+    title: Barcelona, 2017
   - root: 2015-2019/_DSC0290
     title: Sydney, 2018
   - root: 2015-2019/_DSC0250

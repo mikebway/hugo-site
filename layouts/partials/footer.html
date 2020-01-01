@@ -12,7 +12,19 @@
 {{ with .Params.imglist }}
 {{ $lgjs := resources.Get "js/lightgallery.js" | resources.Minify }}
 <script src='{{ $lgjs.Permalink }}'></script>
+{{ $lgfsjs := resources.Get "js/lg-fullscreen.js" | resources.Minify }}
+<script src='{{ $lgfsjs.Permalink }}'></script>
+{{ $lgapjs := resources.Get "js/lg-autoplay.js" | resources.Minify }}
+<script src='{{ $lgapjs.Permalink }}'></script>
 <script>
-  lightGallery(document.getElementById('lightgallery'));
+  lightGallery(document.getElementById('lightgallery'), {
+    download: false,
+    fullScreen: true,
+    hideBarsDelay: 5000,
+    preload: 2,
+    autoplayControls: true,
+    autoplay: false,
+    progressBar: false
+  });
 </script>
 {{ end }}
