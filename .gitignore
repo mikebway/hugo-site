@@ -7,6 +7,9 @@
 # Do not check in the images - they are huge and backed up elsewhere
 /static/images
 
+# Do not check in private or site specific configuration values, e.g. Google Analytics IDs etc
+/private.toml
+
 ## OS Files
 # Windows
 Thumbs.db

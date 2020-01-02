@@ -36,22 +36,35 @@ or purchase a [commercial license](https://sachinchoolur.github.io/lightgallery.
 [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/). At the time of writing, this is an
 affordable $18 (U.S) for an unlimited number of personal projects.
 
+## Public and Private Configuration
+
+Hugo allows multiple configuration files to be combined at build and/or run time. When building
+[mikebroadway.com](http://mikebroadway.com), a second `private.toml` configuration is specificied
+in addition to the default [`config.toml`](/config.toml); `private.toml` is used to define the
+Google Analytics ID that is specific to [mikebroadway.com](http://mikebroadway.com) so that 
+anyone that simply clones this repository to experiment will not accidentally add to the analytics data
+collected for that actual [mikebroadway.com](http://mikebroadway.com) site.
+
 ## Running Locally
 
 As with any normal [Hugo](https://gohugo.io/) project, the site can be run locally at <http://localhost:1313/> using the folowing command in the project root:
 
 ```bash
-hugo server -D
+hugo server -D --config config.toml,private.toml
 ```
 
-The `-D` switch will include any draft pages.
+The `-D` switch will include any draft pages. 
+
+If you don't need to add to any of the configuration in the `config.toml` file, i.e. you don't have any
+configuration values that you do not wnat to have cloned from a public git repository, you can omit
+the `--config config.toml,private.toml` switch and allow `config.toml` to be used by default.
 
 ## Deploying to S3
 
 The site must first be built into the `/public` directory with the undecorated `hugo` command:
 
 ```bash
-hugo
+hugo --config config.toml,private.toml
 ```
 
 Then the contents of the `/public` directory myst be synced to the target S3 bucket:
