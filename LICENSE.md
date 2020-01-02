@@ -22,8 +22,10 @@ should be considered as being covered by either the [GPLv3 license](https://gith
 
 ## Text and Photograph Content of mikebroadway.com
 
-Web site content, as rendered by the source code contained in this repository, is covered 
-by a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Web site content, as displayed by the operating web site and described by the files in the [`content`](/content)
+directory of this repsoitory, is covered by a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Photographs, displayed by the active web site but stored separately from this repository shall be covered by the
+same [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
