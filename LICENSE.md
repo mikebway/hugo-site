@@ -17,8 +17,7 @@ A [commercial license](https://sachinchoolur.github.io/lightgallery.js/docs/lice
 Additionally, some [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) icons and font
 files, not listed above, have been copied into this project. Anything found in this repository that is
 a copy of one of the [lightgallery.js distribution files](https://github.com/sachinchoolur/lightgallery.js/tree/master/dist)
-should be considered as being covered by either the [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md) or a purchased [commercial license](https://sachinchoolur.github.io/lightgallery.js/docs/license.html).
-
+must be licensed either via the [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md) or a purchased [commercial license](https://sachinchoolur.github.io/lightgallery.js/docs/license.html).
 
 ## Text and Photograph Content of mikebroadway.com
 
