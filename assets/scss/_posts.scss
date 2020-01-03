@@ -1,10 +1,14 @@
 .post{
   margin:0 auto;
   width:100%;
-  p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, hr {
+    p, h1, h2, h3, h4, h5, h6, ol, ul, hr {
     max-width: 840px !important;
     margin-left: auto;
     margin-right: auto;
+  }
+  blockquote {
+    margin-inline-start: 6.0rem;
+    margin-inline-end: 6.0rem;
   }
   img:not(.icon) {
     @media screen and (min-width: 1025px) {

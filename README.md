@@ -41,9 +41,9 @@ affordable $18 (U.S) for an unlimited number of personal projects.
 Hugo allows multiple configuration files to be combined at build and/or run time. When building
 [mikebroadway.com](http://mikebroadway.com), a second `private.toml` configuration is specificied
 in addition to the default [`config.toml`](/config.toml); `private.toml` is used to define the
-Google Analytics ID that is specific to [mikebroadway.com](http://mikebroadway.com) so that 
+Google Analytics ID that is specific to [mikebroadway.com](http://mikebroadway.com) so that
 anyone that simply clones this repository to experiment will not accidentally add to the analytics data
-collected for that actual [mikebroadway.com](http://mikebroadway.com) site.
+collected for the actual [mikebroadway.com](http://mikebroadway.com) site.
 
 ## Running Locally
 
