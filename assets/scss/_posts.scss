@@ -148,6 +148,11 @@
   &_thumbnail {
     margin: 0;
   }
+  &_footnote {
+    p {
+      font-size: 0.9rem;
+    }
+  }
   &_nav {
     padding: 3rem 1.5rem;
     display: grid;

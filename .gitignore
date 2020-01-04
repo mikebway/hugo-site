@@ -4,8 +4,9 @@
 # Do not check in generated files
 /resources/_gen
 
-# Do not check in the images - they are huge and backed up elsewhere
+# Do not check in the images or book PDFs - they are huge and backed up elsewhere
 /static/images
+/static/books
 
 # Do not check in private or site specific configuration values, e.g. Google Analytics IDs etc
 /private.toml
