@@ -11,16 +11,6 @@
       </div>
     </div>
   </div>
-  {{ with .Params.imglist }}
-  <div id='lightgallery' class='post_gallery'>
-    {{ range . }}
-    {{ partial "gallery.html" (dict "imgroot" .root "imgtitle" .title ) }}
-    {{ end }}
-  </div>
-  <div class='post_footnote'>
-    <p>Tap any thumbnail to see the full size images.</p>
-  </div>
-  {{ end }}
   {{ with .Params.footnote }}
   <div class='post_footnote'>
     <p><b>* </b>{{ . }}</p>

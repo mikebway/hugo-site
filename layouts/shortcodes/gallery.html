@@ -1,0 +1,11 @@
+<div class='post_gallery_note'>
+    <p>Tap any thumbnail to see the full size images ...</p>
+</div>
+<div id='lightgallery' class='post_gallery'>
+    {{ range .Page.Params.imglist }}
+    <a href='{{ printf "/images/%s-0450.jpg" .root }}'
+        data-srcset='{{ printf "/images/%s-0450.jpg 450w," .root }}{{ printf "/images/%s-0900.jpg 900w," .root }}{{ printf "/images/%s-1200.jpg 1200w," .root }}{{ printf "/images/%s-1920.jpg 1920w," .root }}{{ printf "/images/%s-3840.jpg 3840w," .root }}'>
+        <img alt='{{ .title }}' src='{{ printf "/images/%s-0096.jpg" .root }}'>
+    </a>
+    {{ end }}
+</div>

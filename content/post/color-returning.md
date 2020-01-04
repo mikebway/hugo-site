@@ -56,3 +56,5 @@ imglist:
 > ~ Georgia O’Keeffe
 
 For four years or so, I made no color images. Then, one day, color found me once more.
+
+{{< gallery >}}

@@ -3,9 +3,6 @@ title: "Tourists and Locals"
 date: 2019-12-28T12:01:00-06:00
 image: '2012/20120608-085051-0900.jpg'
 thumb: '2012/20120608-085051-0096.jpg'
-footnote: The book was designed to be viewed two pages at a time, with the left page speaking to the right page and vice versa; if
-          you have the screen space to view it that way, with Adobe Acrobat or similar, that will provide something close to
-          the intended conversation with the images.
 imglist:
   - root: 2012/20120608-085051
     title: Oxford Street, London, 2012
@@ -27,10 +24,21 @@ imglist:
 
 **photograper** - _noun;_ a person who takes photographs, either as a hobby or a profession.
 
-The summer of 2012 was spent as both a tourist and as a local, photographing both other tourists and other locals.
-Sometimes it is obvious who is local to a place and who is just visiting; other times, not so much.
+The summer of 2012 was spent as both a tourist and as a local, photographing both other tourists and other locals
+on the Isle of Mull, Scotland, in London, and in Paris. Sometimes it is obvious who is local to a place and who
+is just visiting; other times, not so much.
 
-141 pictures from that year were assembled as a book, available to download as a [PDF file](/books/Tourists-and-Locals.pdf).
-Only a small subset of the photographs contained in the book are offered here. In recognition that the experience of viewing
-images on the web is not the same as that of turning the pages of a book<sup>*</sup>, the selection and ordering
-below is tailored accordingly.
+{{< gallery >}}
+
+---
+{{< footnote >}}
+141 pictures from that summer were assembled as a book, *Toursist and Locals*, available to download as a [PDF file](/books/Tourists-and-Locals.pdf).
+Only a small subset of the photographs contained in the book are offered above. In recognition that the experience of viewing
+images on the web is not the same as that of turning the pages of a book, the selection and ordering of the pictures here has
+been tailored for online viewing.
+
+If you do download the book, note that it was designed to be viewed two pages at a time, with the left page speaking to
+the right page and vice versa. Adobe Acrobat, and other sophisticated PDF viewers, can be configured to display two pages
+side-by-side; if you have the screen space to do this, it will provide something close to the intended conversations
+between the images.
+{{< /footnote >}}
