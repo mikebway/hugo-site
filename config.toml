@@ -1,4 +1,4 @@
-baseurl = "http://www.mikebroadway.com.s3-website-us-east-1.amazonaws.com/"  # Include trailing slash
+baseurl = "http://mikebroadway.com"  # Include trailing slash
 title = "Photographs"
 theme = "newsroom"
 author = "Mike Broadway"
