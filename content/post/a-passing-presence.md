@@ -4,14 +4,102 @@ date: 2019-12-28T12:02:00-06:00
 image: '2013-2014/7210150-0900.jpg'
 thumb: '2013-2014/7210150-0096.jpg'
 imglist:
-  - root: 2013-2014/7210150
+  - root: passing-presence/20130721-_7210150
     title: New York, 2013
-  - root: 2013-2014/7240030
+  - root: passing-presence/20130724-_7240049
     title: New York, 2013
-  - root: 2013-2014/7230124
+  - root: passing-presence/20130724-_7240047
     title: New York, 2013
-  - root: 2013-2014/7230102
+  - root: passing-presence/20140901-_9010045-3
+    title: Santa Fe, 2014
+  - root: passing-presence/20140905-_9050006
+    title: Santa Fe, 2014
+  - root: passing-presence/20140903-_9030112
+    title: Bandelier National Monument, 2014
+  - root: passing-presence/20140903-_9030048
+    title: Bandelier National Monument, 2014
+  - root: passing-presence/20140903-_9030120
+    title: Bandelier National Monument, 2014
+  - root: passing-presence/20140828-_8280017
+    title: Santa Fe, 2014
+  - root: passing-presence/20140828-_8280024
+    title: Santa Fe, 2014
+  - root: passing-presence/20140903-_9030146
+    title: Bandelier National Monument, 2014
+  - root: passing-presence/20140903-_9030220
+    title: Bandelier National Monument, 2014
+  - root: passing-presence/_9280162
+    title: Austin, 2014
+  - root: passing-presence/20130723-_7230364
     title: New York, 2013
+  - root: passing-presence/20130723-_7230124
+    title: New York, 2013
+  - root: passing-presence/20130723-_7230102
+    title: New York, 2013
+  - root: passing-presence/20130718-_7180152
+    title: New York, 2013
+  - root: passing-presence/20130718-_7180122
+    title: New York, 2013
+  - root: passing-presence/20130719-_7190229
+    title: New York, 2013
+  - root: passing-presence/20130719-_7190184
+    title: New York, 2013
+  - root: passing-presence/20130720-_7200235
+    title: New York, 2013
+  - root: passing-presence/20130720-_7200239
+    title: New York, 2013
+  - root: passing-presence/20130718-_7180037
+    title: New York, 2013
+  - root: passing-presence/20130723-_7230015
+    title: New York, 2013
+  - root: passing-presence/20130723-_7230160
+    title: New York, 2013
+  - root: passing-presence/20140902-_9020105
+    title: Santa Fe, 2014
+  - root: passing-presence/20130723-_7230462
+    title: New York, 2013
+  - root: passing-presence/20130718-_7180094
+    title: New York, 2013
+  - root: passing-presence/20130724-_7240030
+    title: New York, 2013
+  - root: passing-presence/20140828-_8280030
+    title: Santa Fe, 2014
+  - root: passing-presence/20140828-_8280256
+    title: Santa Fe, 2014
+  - root: passing-presence/20140906-_9060100
+    title: Santa Fe, 2014
+  - root: passing-presence/20130721-_7210128
+    title: New York, 2013
+  - root: passing-presence/20140901-_9010114
+    title: Santa Fe, 2014
+  - root: passing-presence/20140829-_8290140
+    title: Santa Fe, 2014
+  - root: passing-presence/20140829-_8290124
+    title: Santa Fe, 2014
+  - root: passing-presence/20140904-_9040086
+    title: New Mexico, 2014
+  - root: passing-presence/20140904-_9040073
+    title: New Mexico, 2014
+  - root: passing-presence/20140830-_8300075
+    title: Tsankawi, Bandelier National Monument, 2014
+  - root: passing-presence/20140830-_8300152
+    title: Tsankawi, Bandelier National Monument, 2014
+  - root: passing-presence/20130127_110238_88
+    title: Austin, 2013
+  - root: passing-presence/20130723-_7230298
+    title: New York, 2013
+  - root: passing-presence/20140904-_9040008
+    title: Santa Fe, 2014
+  - root: passing-presence/20140903-_9030300
+    title: Bandelier National Monument, 2014
+  - root: passing-presence/20140830-_8300130
+    title: Tsankawi, Bandelier National Monument, 2014
+  - root: passing-presence/20140901-_9010020
+    title: New Mexico, 2014
+  - root: passing-presence/20140905-_9050041
+    title: Santa Fe, 2014
+  - root: passing-presence/20140903-_9030090
+    title: Bandelier National Monument, 2014
 ---
 
 >The photograph isn’t what was photographed. It’s something else. It’s a new fact.
