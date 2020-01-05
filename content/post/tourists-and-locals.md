@@ -1,8 +1,8 @@
 ---
 title: "Tourists and Locals"
 date: 2019-12-28T12:01:00-06:00
-image: '2012/20120608-085051-0900.jpg'
-thumb: '2012/20120608-085051-0096.jpg'
+image: 'tourists-locals/20120608-085051-0900.jpg'
+thumb: 'tourists-locals/20120608-085051-0096.jpg'
 imglist:
   - root: tourists-locals/20120527-103331
     title: Isle of Mull, 2012

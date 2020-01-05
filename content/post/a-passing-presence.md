@@ -1,8 +1,8 @@
 ---
 title: "A Passing Presence"
 date: 2019-12-28T12:02:00-06:00
-image: '2013-2014/7210150-0900.jpg'
-thumb: '2013-2014/7210150-0096.jpg'
+image: 'passing-presence/20130721-_7210150-0900.jpg'
+thumb: 'passing-presence/20130721-_7210150-0096.jpg'
 imglist:
   - root: passing-presence/20130721-_7210150
     title: New York, 2013
