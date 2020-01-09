@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "I Dream In Color"
 feature: true
 date: 2019-12-28T12:03:00-06:00
