@@ -42,8 +42,8 @@ Hugo allows multiple configuration files to be combined at build and/or run time
 [mikebroadway.com](http://mikebroadway.com), a second `private.toml` configuration is specificied
 in addition to the default [`config.toml`](/config.toml); `private.toml` is used to define the
 Google Analytics ID that is specific to [mikebroadway.com](http://mikebroadway.com) so that
-anyone that simply clones this repository to experiment will not accidentally add to the analytics data
-collected for the actual [mikebroadway.com](http://mikebroadway.com) site.
+anyone that simply clones this repository to experiment with will not accidentally add to the
+analytics data collected for the actual [mikebroadway.com](http://mikebroadway.com) site.
 
 ## Running Locally
 
@@ -74,3 +74,9 @@ Then the contents of the `/public` directory myst be synced to the target S3 buc
 ```
 
 Naturally, you will need to modify the [sync.sh](/sync.sh) script to reference your own S3 bucket location! And you must have established appropriate access keys for the `aws s3 sync` command to work!
+
+## Amazon Provides Guides for Setting Up S3 Storage as a Static Web Site
+
+See [Hosting a Static Website on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) and
+[Example: Setting Up a Static Website Using a Custom Domain](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html).
+
