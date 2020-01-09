@@ -90,14 +90,6 @@ imglist:
 >
 > ~ [Wikipedia](https://en.wikipedia.org/wiki/Dream)
 
-> Color is bullshit.
->
-> ~ Henri Cartier-Bresson (reported by William Eggleston)
-
-> Of all God’s gifts to the sighted man, color is holiest, the most divine, the most solemn.
->
-> ~ John Ruskin
-
 > As I think about this more carefully, I see plainly that there are never any sure signs by means of which being awake can be distinguished from being asleep.
 >
 > ~ René Descartes
