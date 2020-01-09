@@ -1,5 +1,6 @@
 ---
 title: "A Passing Presence"
+feature: true
 date: 2019-12-28T12:02:00-06:00
 image: 'passing-presence/20130721-_7210150-0900.jpg'
 thumb: 'passing-presence/20130721-_7210150-0096.jpg'

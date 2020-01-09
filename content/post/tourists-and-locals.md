@@ -1,5 +1,6 @@
 ---
 title: "Tourists and Locals"
+feature: true
 date: 2019-12-28T12:01:00-06:00
 image: 'tourists-locals/20120608-085051-0900.jpg'
 thumb: 'tourists-locals/20120608-085051-0096.jpg'

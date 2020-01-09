@@ -4,7 +4,7 @@ theme = "newsroom"
 author = "Mike Broadway"
 copyright = "Copyright © 2019, Mike Broadway"
 canonifyurls = true
-paginate = 3
+paginate = 10
 
 # ids used below are not valid. Replace with valid ones
 [params]

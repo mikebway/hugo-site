@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class='wrap pt-2 mt-2'>
+  {{ $pages := .Paginate (where (where .Site.Pages "Section" "post") "Params.feature" true) }}
   {{- $size := .Paginator.PageSize }}
-  {{ $pages := .Paginate (where .Site.RegularPages "Section" "!=" "").ByPublishDate.Reverse }}
   {{ $scratch := newScratch }}
   {{- range $index, $value := $pages.Pages }}
   {{ if isset .Params "image" }}
