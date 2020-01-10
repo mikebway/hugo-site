@@ -83,8 +83,6 @@ imglist:
     title: London, 2012
   - root: tourists-locals/20120608-085051
     title: London, 2012
-  - root: tourists-locals/GroupPhotoColdDay
-    title: Austin, 2012
   - root: tourists-locals/20120608-082411
     title: London, 2012
   - root: tourists-locals/20120608-100025
