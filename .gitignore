@@ -11,6 +11,12 @@
 # Do not check in private or site specific configuration values, e.g. Google Analytics IDs etc
 /private.toml
 
+# Do not check in Hugo execution artifacts
+.hugo_build.lock
+
+# Do not check in JetBrains IDE artifacts
+/.idea
+
 ## OS Files
 # Windows
 Thumbs.db

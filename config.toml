@@ -14,3 +14,8 @@ paginate = 10
   # twitter = "" # twitter handle e.g @weru
 
   subTitle = "Mike Broadway"
+
+# Minify can't handle assets/js/index.js - so don't minify the JS
+[minify]
+  disableJS = false
+

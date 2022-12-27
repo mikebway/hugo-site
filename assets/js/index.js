@@ -193,35 +193,61 @@ headingNodes.forEach(function(node) {
   }
 });
 
-const copyToClipboard =
-    str => {
-      // Create a <textarea> element
-      const el = createEl('textarea');
-      // Set its value to the string that you want copied
-      el.value = str;
-      // Make it readonly to be tamper-proof
-      el.setAttribute('readonly', '');
-      // Move outside the screen to make it invisible
-      el.style.position = 'absolute';
-      el.style.left = '-9999px';
-      // Append the <textarea> element to the HTML document
-      document.body.appendChild(el);
-      // Check if there is any content selected previously
-      const selected = document.getSelection().rangeCount > 0 ?
-          document.getSelection().getRangeAt(0)  // Store selection if found
-          :
-          false;    // Mark as false to know no selection existed before
-      el.select();  // Select the <textarea> content
-      document.execCommand('copy');   // Copy - only works as a result of a user
-                                      // action (e.g. click events)
-      document.body.removeChild(el);  // Remove the <textarea> element
-      if (selected) {                 // If a selection existed before copying
-        document.getSelection()
-            .removeAllRanges();  // Unselect everything on the HTML document
-        document.getSelection().addRange(
-            selected);  // Restore the original selection
-      }
+// const copyToClipboard =
+//     str => {
+//       // Create a <textarea> element
+//       const el = createEl('textarea');
+//       // Set its value to the string that you want copied
+//       el.value = str;
+//       // Make it readonly to be tamper-proof
+//       el.setAttribute('readonly', '');
+//       // Move outside the screen to make it invisible
+//       el.style.position = 'absolute';
+//       el.style.left = '-9999px';
+//       // Append the <textarea> element to the HTML document
+//       document.body.appendChild(el);
+//       // Check if there is any content selected previously
+//       const selected = document.getSelection().rangeCount > 0 ?
+//           document.getSelection().getRangeAt(0)  // Store selection if found
+//           :
+//           false;    // Mark as false to know no selection existed before
+//       el.select();  // Select the <textarea> content
+//       document.execCommand('copy');   // Copy - only works as a result of a user
+//                                       // action (e.g. click events)
+//       document.body.removeChild(el);  // Remove the <textarea> element
+//       if (selected) {                 // If a selection existed before copying
+//         document.getSelection()
+//             .removeAllRanges();  // Unselect everything on the HTML document
+//         document.getSelection().addRange(
+//             selected);  // Restore the original selection
+//       }
+//     }
+
+  function copyToClipboard(str) {
+    // Create a <textarea> element
+    const el = createEl('textarea');
+    // Set its value to the string that you want copied
+    el.value = str;
+    // Make it readonly to be tamper-proof
+    el.setAttribute('readonly', '');
+    // Move outside the screen to make it invisible
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    // Append the <textarea> element to the HTML document
+    document.body.appendChild(el);
+    // Check if there is any content selected previously
+    const selected =
+        document.getSelection().rangeCount > 0
+            ? document.getSelection().getRangeAt(0)   // Store selection if found
+            : false;                                  // Mark as false to know no selection existed before
+    el.select();                              // Select the <textarea> content
+    document.execCommand('copy'); // Copy - only works as a result of a user action (e.g. click events)
+    document.body.removeChild(el);                  // Remove the <textarea> element
+    if (selected) {                                 // If a selection existed before copying
+      document.getSelection().removeAllRanges();    // Unselect everything on the HTML document
+      document.getSelection().addRange(selected);   // Restore the original selection
     }
+  };
 
 (function copyHeadingLink() {
   let deeplink = 'link';
