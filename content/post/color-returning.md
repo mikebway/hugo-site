@@ -2,8 +2,8 @@
 title: "Color Returning"
 feature: true
 date: 2022-12-27T12:01:45-06:00
-image: 'color-returning/0050-D100_2004-12-21_124756-0900.jpg'
-thumb: 'color-returning/0050-D100_2004-12-21_124756-0096.jpg'
+image: 'color-returning/0019-_A170032-0900.jpg'
+thumb: 'color-returning/0019-_A170032-0096.jpg'
 imglist:
   - root: color-returning/0001-_A200073
     title: Barcelona, 2017
@@ -137,6 +137,8 @@ imglist:
     title: San Antonio, 2001
 ---
 
+For going on five years, I made no color images. Then, one day in Barcelona, color found me again.
+
 > Color is bullshit.
 >
 > ~ Henri Cartier-Bresson (as reported by William Eggleston)
@@ -145,14 +147,10 @@ imglist:
 >
 > ~ John Ruskin
 
-> I found I could say things with colors that I couldn’t say in any other way – things that I had no words for.
->
-> ~ Georgia O’Keeffe
-
-For going on five years, I made no color images. Then, one day in Barcelona, color found me once more. No longer
-in the numinous Kodachrome landscapes I had sought out for my first 30 years wielding a camera, but now on the streets,
-in the fairgrounds, in the museums, with people large in the frame rather than painstakingly excluded. And looking
-back through my files, I found there had always been some moments where my faltering courage had been sufficient
-to focus on some person instead of pine trees - there were people among the landscapes.
+No longer was this color in the numinous Kodachrome landscapes I had sought out for my first 30 years wielding a 
+camera, but now on the streets, in the fairgrounds, in the museums, with people large in the frame rather than 
+painstakingly excluded. And looking back through my files, I found there had always been some moments where my 
+faltering courage had been sufficient to focus on some person instead of pine trees - there were people among 
+the landscapes.
 
 {{< gallery >}}
