@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class='wrap pt-2 mt-2'>
+<div class='wrap pt-6 mt-6'>
   {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" true) }}
   {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
-  <article class='article mb-2'>
+  <article class='article mb-4'>
     <a href='{{ $value.Permalink }}' class='grid-reverse'>
       <div class='article_thumb' style='background-image: url({{ $bg }})'></div>
       <div class='article_meta center_y'>
@@ -35,10 +35,11 @@
     </p>
   </blockquote>
   <br/>
+  <h1 class='post_title'>Previous Series</h1>
   <div class='grid-2 article_showcase'>
     {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" false) }}
     {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
-    <article class='article mb-2'>
+    <article class='article mb-1'>
       <a href='{{ $value.Permalink }}'>
         <div class='article_thumb' style='background-image: url({{ $bg }})'></div>
         <div class='article_meta'>
