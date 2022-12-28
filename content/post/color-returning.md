@@ -4,6 +4,7 @@ feature: true
 date: 2022-12-27T12:01:45-06:00
 image: 'color-returning/0019-_A170032-0900.jpg'
 thumb: 'color-returning/0019-_A170032-0096.jpg'
+caption: "Barcelona, 2017"
 imglist:
   - root: color-returning/0001-_A200073
     title: Barcelona, 2017

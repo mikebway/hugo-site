@@ -15,7 +15,7 @@ it is well worth the small fee charged for a commercial license, even for person
 ## Photograph Content is Stored Separately
 
 Being a responsive web site design for displaying photographs, [mikebroadway.com](http://mikebroadway.com)
-contains hundreds of megabytes of image files. Being to bulky, the photographs themselves are not
+contains hundreds of megabytes of image files. Being too bulky, the photographs themselves are not
 contained in this source code repository; [`.gitignore`](/.gitignore) excludes the `/static/images` directory.
 
 ## License

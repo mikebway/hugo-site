@@ -7,6 +7,7 @@
         {{ with .Params.image }}
         <img src='{{ absURL (printf "images/%s" .) }}' alt='{{ . }}' class='post_thumbnail'>
         {{ end }}
+        <div style="text-align: right; margin-right: 5em">{{$.Param "caption"}}</div><br/>
         {{ .Content }}
       </div>
     </div>
