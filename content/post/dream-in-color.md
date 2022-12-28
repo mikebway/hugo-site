@@ -1,6 +1,7 @@
 ---
 title: "I Dream In Color"
 feature: false
+weight: 100
 date: 2019-12-28T12:03:00-06:00
 image: 'dream-color/20130105_140501_80-0900.jpg'
 thumb: 'dream-color/20130105_140501_80-0096.jpg'
