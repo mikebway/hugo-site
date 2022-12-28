@@ -1,6 +1,6 @@
 <div class='archive wrap mt'>
   <h1>{{ .Title }}</h1>
-  {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "").ByPublishDate.Reverse }}
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
   {{- range $paginator.Pages }}
   <a class='archive_item' href='{{ .Permalink }}'>
     <div class="archive_thumbnail">
