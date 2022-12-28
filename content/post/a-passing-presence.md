@@ -113,7 +113,7 @@ imglist:
 
 >"And this, too, shall pass away." How much it expresses! How chastening in the hour of pride! How consoling in the depths of affliction! "And this, too, shall pass away."
 >
-> ~ Abraham Lincoln, _The Milwaukee Speach_
+> ~ Abraham Lincoln, The Milwaukee Speech
 
 Carved and worn into the rocks of Tsankawi, New Mexico, the petroglyphs and paths made by a people lost to history
 ask questions about the permanence of New York City and of the art in our museums. We, and the photographs that we
