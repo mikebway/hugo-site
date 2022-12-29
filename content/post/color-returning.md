@@ -34,7 +34,7 @@ imglist:
   - root: color-returning/0013-_A151167
     title: Barcelona, 2017
   - root: color-returning/0014-A7R00427
-    title: Barcelona, 2017
+    title: Rome, 2019
   - root: color-returning/0015-_A151063
     title: Barcelona, 2017
   - root: color-returning/0016-A7R01208
