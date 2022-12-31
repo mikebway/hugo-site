@@ -1,22 +1,22 @@
 {{ define "main" }}
 <div class='wrap pt-6 mt-6'>
   {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" true) }}
-  {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
-  <article class='article mb-4'>
-    <a href='{{ $value.Permalink }}' class='grid-reverse'>
-      <div class='article_thumb' style='background-image: url({{ $bg }})'></div>
-      <div class='article_meta center_y'>
-        <h3 class='article_title'>{{ $value.Title }}</h3>
-        <div class='article_excerpt visible'>
-          <p>{{ $value.Summary | truncate 100 }}</p>
-        </div>
-      </div>
-    </a>
-    <div style="text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $value.Params.caption }}</div><br/>
-  </article>
+    {{ if (eq $index 0) }}
+      {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
+      <article class='article mb-4'>
+        <a href='{{ $value.Permalink }}' class='grid-reverse'>
+          <div class='article_thumb' style='background-image: url({{ $bg }})'></div>
+          <div class='article_meta center_y'>
+            <h3 class='article_title'>{{ $value.Title }}</h3>
+            <div class='article_excerpt visible'>
+              <p>{{ $value.Summary | truncate 100 }}</p>
+            </div>
+          </div>
+        </a>
+        <div style="text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $value.Params.caption }}</div><br/>
+      </article>
+    {{- end }}
   {{- end }}
-</div>
-<div class='wrap'>
   <blockquote>
     <p>
       Why is form beautiful? Because, I think, it helps us meet our worst fear, the suspicion
@@ -35,6 +35,26 @@
       ~ Georgia O'Keeffe
     </p>
   </blockquote>
+  <br/>
+  {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" true) }}
+  {{ if (gt $index 0) }}
+  {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
+  <article class='article mb-4'>
+    <a href='{{ $value.Permalink }}' class='grid-reverse'>
+      <div class='article_thumb' style='background-image: url({{ $bg }})'></div>
+      <div class='article_meta center_y'>
+        <h3 class='article_title'>{{ $value.Title }}</h3>
+        <div class='article_excerpt visible'>
+          <p>{{ $value.Summary | truncate 100 }}</p>
+        </div>
+      </div>
+    </a>
+    <div style="text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $value.Params.caption }}</div><br/>
+  </article>
+  {{- end }}
+  {{- end }}
+</div>
+<div class='wrap'>
   <br/>
   <h1 class='post_title'>Other Series</h1>
   <div class='grid-2 article_showcase'>

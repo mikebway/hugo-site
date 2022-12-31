@@ -192,9 +192,8 @@ was holding a book with a recognizable English title. When I first read *The Cat
 before making the photograph, I wanted to slap some sense into Holden Caulfield; now, I have more sympathy.
 
 It's been a strange five years since I saw her reading in that park. Facts became false opinions, truth became fake 
-news. A pandemic, empty streets and highways; for a while, mask wearing becoming a more common sight on the sidewalks
-than people looking at their phones. An insurrection, a war in Europe, extreme weather. All those things we hoped 
-weren't coming in 2017! All those things that could get worse in the next five years ...
+news. A pandemic, empty streets and highways, the loss of friends and family. For a while, mask wearing became 
+more ubiquitous on the sidewalks than people looking at their phones. An insurrection, a war in Europe, extreme weather. 
 
 Some believe that the ending of *Catcher in the Rye* is optimistic. Let's hope they are right. 
 
