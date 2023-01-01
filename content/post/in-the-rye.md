@@ -5,6 +5,7 @@ weight: 10
 date: 2022-12-29T06:54:00-06:00
 image: 'in-the-rye/0001-_A140565-0900.jpg'
 thumb: 'in-the-rye/0001-_A140565-0096.jpg'
+bgpos: 'center top'
 caption: 'Reading The Catcher in the Rye, Barcelona, 2017'
 imglist:
   - root: in-the-rye/0001-_A140565

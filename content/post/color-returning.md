@@ -5,6 +5,7 @@ weight: 10
 date: 2022-12-27T12:01:45-06:00
 image: 'color-returning/0019-_A170032-0900.jpg'
 thumb: 'color-returning/0019-_A170032-0096.jpg'
+bgpos: 'center'
 caption: "Barcelona, 2017"
 imglist:
   - root: color-returning/0001-_A200073

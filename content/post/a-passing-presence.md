@@ -5,6 +5,7 @@ weight: 10
 date: 2019-12-28T12:02:00-06:00
 image: 'passing-presence/20130721-_7210150-0900.jpg'
 thumb: 'passing-presence/20130721-_7210150-0096.jpg'
+bgpos: 'center'
 caption: 'New York, 2013'
 imglist:
   - root: passing-presence/20130721-_7210150
