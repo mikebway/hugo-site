@@ -4,7 +4,7 @@ feature: true
 weight: 10
 date: 2022-12-29T06:54:00-06:00
 image: 'in-the-rye/0001-_A140565-0900.jpg'
-thumb: 'in-the-rye/0001-_A140565-0096.jpg'
+thumb: 'in-the-rye/0001-_A140565'
 bgpos: 'center top'
 caption: 'Reading The Catcher in the Rye, Barcelona, 2017'
 imglist:
@@ -26,6 +26,8 @@ imglist:
     title: Rome, 2019
   - root: in-the-rye/0009-20100626-092617
     title: Taos, 2010
+  - root: in-the-rye/_8190140
+    title: Austin, 2017
   - root: in-the-rye/0010-A7R01142
     title: Rome, 2019
   - root: in-the-rye/0011-A7R03088
@@ -90,6 +92,10 @@ imglist:
     title: Rome, 2019
   - root: in-the-rye/0041-A7R02438
     title: Austin, 2021
+  - root: in-the-rye/_8190300
+    title: Austin, 2017
+  - root: in-the-rye/_8190289
+    title: Austin, 2017
   - root: in-the-rye/0042-A7R03215
     title: Oxford, 2022
   - root: in-the-rye/0043-A7R03322
@@ -114,10 +120,14 @@ imglist:
     title: Rome, 2019
   - root: in-the-rye/0053-_A200008
     title: Barcelona, 2017
+  - root: in-the-rye/_8190233
+    title: Austin, 2017
   - root: in-the-rye/0054-A7R03227
     title: Oxford, 2022
   - root: in-the-rye/0055-A7R03254
     title: Oxford, 2022
+  - root: in-the-rye/_8190214
+    title: Austin, 2017
   - root: in-the-rye/0056-A7R03007
     title: Oxford, 2022
   - root: in-the-rye/0057-_A161304
