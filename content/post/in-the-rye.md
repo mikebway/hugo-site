@@ -1,6 +1,6 @@
 ---
 title: "In the Rye"
-feature: true
+feature: false
 weight: 10
 date: 2022-12-29T06:54:00-06:00
 image: 'in-the-rye/0001-_A140565-0900.jpg'
