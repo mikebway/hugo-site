@@ -3,11 +3,15 @@ title: "Turisti e Gente del Posto"
 feature: true
 weight: 9
 date: 2021-12-27T12:01:45-06:00
-image: 'turisti-e-gente-del-posto/0087-A7R06708-0900.jpg'
-thumb: 'turisti-e-gente-del-posto/0087-A7R06708-0096.jpg'
-bgpos: 'center'
-caption: "Mercato Centrale, Florence, 2023"
+image: 'turisti-e-gente-del-posto/0001-A7R05785-0900.jpg'
+thumb: 'turisti-e-gente-del-posto/0001-A7R05785-0096.jpg'
+bgpos: '25% 25%'
+caption: "Via Galliera, Bologna, 2023"
 imglist:
+  - root: turisti-e-gente-del-posto/0002-A7R05038
+    title: Bologna, 2023
+  - root: turisti-e-gente-del-posto/0001-A7R05785
+    title: Via Galliera, Bologna, 2023
   - root: turisti-e-gente-del-posto/0001-A7R05118
     title: Bologna, 2023
   - root: turisti-e-gente-del-posto/0002-A7R05387
