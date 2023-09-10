@@ -10,10 +10,10 @@ caption: "Via Galliera, Bologna, 2023"
 imglist:
   - root: turisti-e-gente-del-posto/0002-A7R05038
     title: Bologna, 2023
-  - root: turisti-e-gente-del-posto/0001-A7R05785
-    title: Via Galliera, Bologna, 2023
   - root: turisti-e-gente-del-posto/0001-A7R05118
     title: Bologna, 2023
+  - root: turisti-e-gente-del-posto/0001-A7R05785
+    title: Via Galliera, Bologna, 2023
   - root: turisti-e-gente-del-posto/0002-A7R05387
     title: Bologna, 2023
   - root: turisti-e-gente-del-posto/0003-A7R05364
