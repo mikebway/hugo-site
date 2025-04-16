@@ -2,7 +2,7 @@
 
 ## lightgallery.js
 
-The following [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) source code files,
+The following [lightgallery.js](https://www.lightgalleryjs.com/) source code files,
 that have been cloned into this repository, are available as open source code under a
 [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md).
 
@@ -14,10 +14,10 @@ that have been cloned into this repository, are available as open source code un
 A [commercial license](https://sachinchoolur.github.io/lightgallery.js/docs/license.html) for
 [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) may be purchesed from its author.
 
-Additionally, some [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) icons and font
+Additionally, some [lightgallery.js](https://www.lightgalleryjs.com/) icons and font
 files, not listed above, have been copied into this project. Anything found in this repository that is
 a copy of one of the [lightgallery.js distribution files](https://github.com/sachinchoolur/lightgallery.js/tree/master/dist)
-must be licensed either via the [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md) or a purchased [commercial license](https://sachinchoolur.github.io/lightgallery.js/docs/license.html).
+must be licensed either via the [GPLv3 license](https://github.com/sachinchoolur/lightGallery/blob/master/LICENSE) or a purchased [commercial license](https://www.lightgalleryjs.com/license/).
 
 ## Text and Photograph Content of mikebroadway.com
 
@@ -30,7 +30,7 @@ same [Creative Commons Attribution-ShareAlike 4.0 International License](http://
 
 ## MIT License for the Remainder
 
-Copyright (c) 2019-2020 Mike Broadway
+Copyright (c) 2019-2024 Mike Broadway
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

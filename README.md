@@ -8,8 +8,8 @@ The site layout is derived from the [Newsroom Hugo Theme](https://github.com/onw
 and developed by [wero](https://github.com/onweru) and referenced as a gitmodule; see [.gitmodules](/.gitmodules).
 
 Image gallery display, with fullscreen and slide show capabilities, is handled by 
-[lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/). While this is available as open
-source code under a [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md)
+[lightgallery.js](https://www.lightgalleryjs.com/). While this is available as open
+source code under a [GPLv3 license](https://github.com/sachinchoolur/lightGallery/blob/master/LICENSE)
 it is well worth the small fee charged for a commercial license, even for personal projects like this one.
 
 ## Photograph Content is Stored Separately
@@ -23,18 +23,10 @@ contained in this source code repository; [`.gitignore`](/.gitignore) excludes t
 See the [LICENSE](LICENSE.md) file for the license rights and limitations covering different aspects of this
 respository's contents.
 
-**IMPORTANT:** The [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) source code used by
+**IMPORTANT:** The [lightgallery.js](https://www.lightgalleryjs.com/) source code used by
 this project is separately licensed; it is **NOT** covered by the MIT license that applies to the source
-code in this repository. [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) is
-available as open source code under a [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md)
-that is incompatible with the [MIT license](LICENSE.md) referenced above.
-
-If you wish to utilize the [lightgallery.js](/assets/js/lightgallery.js), [lg-autoplay.js](/assets/js/lg-autoplay.js),
-[lg-fullscreen.js](/assets/js/lg-fullscreen.js), or [lightgallery.css](/assets/css/lightgallery.css) files in your
-own web site, you must either open source your code under a [GPLv3 license](https://github.com/sachinchoolur/lightgallery.js/blob/master/LICENSE.md)
-or purchase a [commercial license](https://sachinchoolur.github.io/lightgallery.js/docs/license.html) for
-[lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/). At the time of writing, this is an
-affordable $18 (U.S) for an unlimited number of personal projects.
+code in this repository. If used on a commercial site, a license fee must be paid to the
+[lightgallery.js](https://www.lightgalleryjs.com/) author(s).
 
 ## Public and Private Configuration
 
