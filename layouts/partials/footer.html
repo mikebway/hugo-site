@@ -10,14 +10,16 @@
 {{ $scripts := resources.Get "js/index.js" | resources.ExecuteAsTemplate "js/index.js" . | resources.Minify }}
 <script src='{{ $scripts.Permalink }}'></script>
 {{ with .Params.imglist }}
-{{ $lgjs := resources.Get "js/lightgallery.js" | resources.Minify }}
+{{ $lgjs := resources.Get "js/lightgallery.umd.js" | resources.Minify }}
 <script src='{{ $lgjs.Permalink }}'></script>
-{{ $lgfsjs := resources.Get "js/lg-fullscreen.js" | resources.Minify }}
-<script src='{{ $lgfsjs.Permalink }}'></script>
-{{ $lgapjs := resources.Get "js/lg-autoplay.js" | resources.Minify }}
-<script src='{{ $lgapjs.Permalink }}'></script>
+{{ $lgZoomjs := resources.Get "js/plugins/lg-zoom.umd.js" | resources.Minify }}
+<script src='{{ $lgZoomjs.Permalink }}'></script>
+{{ $lgThumbnailjs := resources.Get "js/plugins/lg-thumbnail.umd.js" | resources.Minify }}
+<script src='{{ $lgThumbnailjs.Permalink }}'></script>
 <script>
   lightGallery(document.getElementById('lightgallery'), {
+    plugins: [lgZoom, lgThumbnail],
+    speed: 500,
     download: false,
     fullScreen: true,
     hideBarsDelay: 5000,
