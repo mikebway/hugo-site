@@ -17,16 +17,38 @@
 {{ $lgThumbnailjs := resources.Get "js/plugins/lg-thumbnail.umd.js" | resources.Minify }}
 <script src='{{ $lgThumbnailjs.Permalink }}'></script>
 <script>
-  lightGallery(document.getElementById('lightgallery'), {
-    plugins: [lgZoom, lgThumbnail],
-    speed: 500,
-    download: false,
-    fullScreen: true,
-    hideBarsDelay: 5000,
-    preload: 2,
-    autoplayControls: true,
-    autoplay: false,
-    progressBar: false
+  document.addEventListener('DOMContentLoaded', function() {
+    const galleryElement = document.getElementById('lightgallery');
+    if (galleryElement) {
+      let thumbnailsEnabled = false;
+      
+      const galleryOptions = {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        download: false,
+        fullScreen: true,
+        hideBarsDelay: 5000,
+        preload: 2,
+        autoplayControls: true,
+        autoplay: false,
+        progressBar: false,
+        thumbnail: false,
+        toggleThumb: true,
+        selector: 'a'
+      };
+      
+      const gallery = lightGallery(galleryElement, galleryOptions);
+      
+      // Add event listener for thumbnail toggle
+      galleryElement.addEventListener('lgAfterOpen', () => {
+        const thumbToggle = document.querySelector('.lg-thumb-toggle');
+        if (thumbToggle) {
+          thumbToggle.addEventListener('click', () => {
+            thumbnailsEnabled = !thumbnailsEnabled;
+          });
+        }
+      });
+    }
   });
 </script>
 {{ end }}
