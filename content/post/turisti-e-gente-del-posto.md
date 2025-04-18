@@ -202,9 +202,8 @@ imglist:
     title: Basilica di San Miniato, Florence, 2023
 ---
 
-> A man who has not been in Italy is always conscious of an inferiority, from his not having seen what it is expected a man should see
->
-> ~ Samuel Johnson (1709-1784)
+A man who has not been in Italy is always conscious of an inferiority, from his not having seen what it is expected a 
+man should see, to quote Samuel Johnson (1709-1784).
 
 This spirit of this series, from a stay in Bologna and Florence in May of 2023, reminded me of the earlier 
 [Tourists and Locals](/post/tourists-and-locals/) sequence so much that I gave it the same name, but 
