@@ -15,5 +15,9 @@
   {{- $styles := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | resources.ToCSS $options | resources.Fingerprint "sha512" }}
   <link rel='stylesheet' href='{{ $styles.Permalink }}' integrity='{{ $styles.Data.Integrity }}'>
   {{- $lg := resources.Get "css/lightgallery.css" | resources.Minify | resources.Fingerprint "sha512" }}
+  {{- $lgZoom := resources.Get "css/lg-zoom.css" | resources.Minify | resources.Fingerprint "sha512" }}
+  {{- $lgThumbnail := resources.Get "css/lg-thumbnail.css" | resources.Minify | resources.Fingerprint "sha512" }}
   <link rel='stylesheet' href='{{ $lg.Permalink }}' integrity='{{ $lg.Data.Integrity }}'>
+  <link rel='stylesheet' href='{{ $lgZoom.Permalink }}' integrity='{{ $lgZoom.Data.Integrity }}'>
+  <link rel='stylesheet' href='{{ $lgThumbnail.Permalink }}' integrity='{{ $lgThumbnail.Data.Integrity }}'>
 </head>
