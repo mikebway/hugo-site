@@ -6,14 +6,14 @@ date: 2021-12-27T12:01:45-06:00
 image: 'turisti-e-gente-del-posto/0001-A7R05785-0900.jpg'
 thumb: 'turisti-e-gente-del-posto/0001-A7R05785-0096.jpg'
 bgpos: '25% 25%'
-caption: "Via Galliera, Bologna, 2023"
+caption: "Via Galliera, Bologna, 2023 (Focus corrected by AI)"
 imglist:
   - root: turisti-e-gente-del-posto/0002-A7R05038
     title: Bologna, 2023
   - root: turisti-e-gente-del-posto/0001-A7R05118
     title: Bologna, 2023
   - root: turisti-e-gente-del-posto/0001-A7R05785
-    title: Via Galliera, Bologna, 2023
+    title: Via Galliera, Bologna, 2023 (Focus corrected by AI)
   - root: turisti-e-gente-del-posto/0002-A7R05387
     title: Bologna, 2023
   - root: turisti-e-gente-del-posto/0003-A7R05364
@@ -209,5 +209,28 @@ This spirit of this series, from a stay in Bologna and Florence in May of 2023, 
 [Tourists and Locals](/post/tourists-and-locals/) sequence so much that I gave it the same name, but 
 translated into Italian.
 
+See [note at the bottom of the page](#ai-correction) for more information about the one use of AI focus correction for 
+the image above.
+
 {{< gallery >}}
+
+&nbsp;
+&nbsp;
+
+### Use of AI image correction {#ai-correction}
+
+To my mind, a true "street photograph" is one that captures a moment in time as the photographer saw it, without the
+addition or removal of any part. I will crop images to improve composition, but I will not change the content within
+the crop. I will correct exposure and color balance, I will convert to black and white, but I will not remove a fire
+hydrant or add a reflection, etc. However, there is one image on this web site where I allowed myself to use an AI
+tool to correct the focus of a photograph: the one of the woman in white show at the top of this page and here:
+
+![Via Galliera, Bologna, 2023 (Focus corrected by AI)](/images/turisti-e-gente-del-posto/0001-A7R05785-0450.jpg)
+
+This photograph is perhaps my favorite image from this series, but I am conflicted about my use of AI to correct my
+bad focus. I failed to capture the moment as I saw it, and I fear that using AI to correct it is a step too far. I love
+the image and want to show it, but I have to be honest and flag that AI was used.
+
+See the blog post, ["Successful Street Photo or AI cheat?"](https://medium.com/@mikebroadway/successful-street-photo-or-ai-cheat-c5253dc91d89) 
+on Medium for a longer discussion of this image, the use of AI to render it, and how I probably won't use it again.
 
