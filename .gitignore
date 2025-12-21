@@ -8,6 +8,9 @@
 /static/images
 /static/books
 
+# Do not check in deprecated files, i.e., images that have been removed from teh site
+/deprecated
+
 # Do not check in private or site specific configuration values, e.g. Google Analytics IDs etc
 /private.toml
 
@@ -16,6 +19,9 @@
 
 # Do not check in JetBrains IDE artifacts
 /.idea
+
+# Do not check in Claude Code artifacts
+/tasks
 
 ## OS Files
 # Windows
