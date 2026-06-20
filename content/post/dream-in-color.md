@@ -71,7 +71,7 @@ imglist:
   - root: dream-color/OfficeMaxPostBox
     title: Austin, 2011
   - root: dream-color/ProtectionHEB
-    title: 
+    title: Austin, 2011
   - root: dream-color/_A200110
     title: Barcelona, 2017
   - root: dream-color/_DSC0282
