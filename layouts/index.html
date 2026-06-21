@@ -55,8 +55,26 @@
   {{- end }}
 </div>
 <div class='wrap'>
+  <blockquote>
+    <p>
+      The whole point of taking pictures is so that you don't have to explain things in words.
+      <br />
+      <br />
+      ~ Elliott Erwitt
+    </p>
+  </blockquote>
+  <blockquote>
+    <p>
+      A photograph is a question, not an answer.
+      <br />
+      <br />
+      ~ Gary Winogrand
+    </p>
+  </blockquote>
+</div>
+<div class='wrap'>
   <br/>
-  <h1 class='post_title'>Other Series</h1>
+  <h1 class='post_title'>Older Series</h1>
   <div class='grid-2 article_showcase'>
     {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" false) }}
     {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
@@ -72,8 +90,28 @@
   </div>
 </div>
 <div class='wrap'>
+  <blockquote>
+    <p>
+      A photographer is like a cod, which produces a million eggs in order that one may reach maturity.”
+      <br />
+      <br />
+      ~ George Bernard Shaw
+    </p>
+  </blockquote>
+  <blockquote>
+    <p>
+      All photographs are memento mori. To take a photograph is to participate in another person’s (or thing’s)
+      mortality, vulnerability, mutability. Precisely by slicing out this moment and freezing it, all photographs
+      testify to time’s relentless melt.
+      <br />
+      <br />
+      ~ Susan Sontag
+    </p>
+  </blockquote>
+</div>
+<div class='wrap'>
   <br/>
-  <h1 class='post_title'>By Year</h1>
+  <h1 class='post_title'>Catalog By Year</h1>
   <div class='grid-2 article_showcase'>
     {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" "years") }}
     {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
