@@ -1,26 +1,26 @@
 ---
-title: "In Progress"
+title: "Jazz Adjacent"
 feature: false
 weight: 8
 date: 2019-12-28T12:03:00-06:00
-image: 'in-progress/A7R04053-0900.jpg'
-thumb: 'in-progress/A7R04053-0096.jpg'
+image: 'jazz-adjacent/A7R04053-0900.jpg'
+thumb: 'jazz-adjacent/A7R04053-0096.jpg'
 bgpos: 'center'
 caption: "Austin, 2022"
 imglist:
-- root: in-progress/A7R04053
+- root: jazz-adjacent/A7R04053
   title: Austin, 2022
-- root: in-progress/A7R04857
+- root: jazz-adjacent/A7R04857
   title: Austin, 2022
-- root: in-progress/A7R05004
+- root: jazz-adjacent/A7R05004
   title: Austin, 2022
-- root: in-progress/A7R03935
+- root: jazz-adjacent/A7R03935
   title: Austin, 2022
-- root: in-progress/A7R03966
+- root: jazz-adjacent/A7R03966
   title: Austin, 2022
-- root: in-progress/A7R04012
+- root: jazz-adjacent/A7R04012
   title: Austin, 2022
-- root: in-progress/A7R04046
+- root: jazz-adjacent/A7R04046
   title: Austin, 2022
 ---
 
