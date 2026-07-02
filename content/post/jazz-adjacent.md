@@ -1,5 +1,5 @@
 ---
-title: "Jazz Adjacent"
+title: "Austin Jazz Adjacent"
 feature: false
 weight: 8
 date: 2019-12-28T12:03:00-06:00
@@ -9,35 +9,42 @@ bgpos: 'center'
 caption: "Austin, 2022"
 imglist:
 - root: jazz-adjacent/A7R04053
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R04857
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R05004
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R03935
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R03966
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R04012
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R04046
-  title: Austin, 2022
+  title: Elephant Room, Austin, 2022
 ---
 
-> To photograph people is to violate them, by seeing them as they never see themselves, by having knowledge of them
-> that they can never have; it turns people into objects that can be symbolically possessed.
+> If you have to ask what jazz is, you'll never know.
 >
-> ~ Susan Sontag, [On Photography](http://www.susansontag.com/SusanSontag/books/onPhotography.shtml)
+> ~ Louis Armstrong
 
-> It is one thing to photograph people. It is another to make others care about them by revealing the core of 
-> their humanness.
+> For the photographer, the camera is like a jazz musician’s ax. It’s the tool that you would like to be able to ignore,
+> but you have to have it to convey your thoughts and whatever you want to express through it. I didn’t want to stage 
+> my pictures. That’s where jazz and photography have always come together for me. They’re alike in their improvisation 
+> and their spontaneousness. They happen at the same moment that you’re hearing something and you’re seeing something, 
+> and you record it and it’s frozen forever.
 >
-> ~ [Paul Strand](https://www.metmuseum.org/toah/hd/pstd/hd_pstd.htm) 
+> ~ [William Claxton](https://en.wikipedia.org/wiki/William_Claxton_(photographer)) 
 
-Not a collection with any theme or purpose, not yet at least, just a collection of recent images ...
+This is not attempt to document Austin's jazz scene, only a lose collection of photographs collected at or around
+some of the jazz performances that I have had the privilege to attend in the city over the last few years.
 
-That said, as things stand in January, 2023, all these pictures are of patrons at Austin's [Elephant Room](https://elephantroom.com/)
-"underground jazz bar," made on one evening. They could be the start of a series around jazz, nightlife, or people 
-alone and together in bars, or just lost in their phones.
+Jazz can be found at open air and restaurant spaces around town, but in particular at one of the three explicitly
+jazz venues, each with their own character:
+
+* • [Parker Jazz Club](https://www.parkerjazzclub.com/)
+* • [Monks Jazz Club](https://monksjazz.com/)
+* • [Elephant Room](https://elephantroom.com/)
+
 
 {{< gallery >}}
