@@ -18,6 +18,8 @@ imglist:
   title: Cirencester, England, 2026
 - root: 2026/0029-L1082229
   title: Narbonne, France, 2026
+- root: 2026/0170-L1110889
+  title: New Orleans, 2026
 ---
 
 Some of these images may not be linked from the public pages.
