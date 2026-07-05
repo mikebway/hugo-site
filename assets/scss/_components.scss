@@ -11,6 +11,15 @@
       opacity: 0;
     }
     transition: height 0.5s, opacity 0.5s;
+    blockquote {
+      padding: 0;
+      background: none;
+      p {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        margin-bottom: 0.5rem;
+      }
+    }
   }
   &_excerpt,
   &_meta {
@@ -246,4 +255,69 @@
       }
     }
   }
+}
+
+// The global `img` margin in _base.scss otherwise pushes lightGallery's
+// thumbnail images down inside their fixed-height, overflow-hidden boxes.
+.lg-thumb-item img {
+  margin: 0;
+}
+
+// Add a little breathing room between the displayed image and its caption.
+// padding-top (not margin-top) so it counts toward the caption's measured
+// height and lightGallery reserves the matching extra space below the image.
+.lg-outer .lg-sub-html {
+  padding-top: 25px;
+  color: var(--dark);
+}
+
+// Override lightGallery's black backdrop without editing the vendored CSS.
+// .lg-container .lg-backdrop is more specific than the vendor's plain
+// .lg-backdrop rule, so it wins the cascade without needing !important.
+.lg-container .lg-backdrop {
+  background-color: #fff;
+}
+
+// Match the thumbnail strip's background to the new white backdrop.
+// .lg-container .lg-outer .lg-thumb-outer is more specific than the vendor's
+// .lg-outer .lg-thumb-outer rule, so it wins without needing !important.
+.lg-container .lg-outer .lg-thumb-outer {
+  background-color: #fff;
+}
+
+// Inset the displayed image from the left/right edges so it can never grow
+// wide enough to sit directly under the prev/next arrow buttons (which are
+// positioned 20px from each edge in the vendor CSS, at a fixed size regardless
+// of screen width). Width must be overridden alongside left/right since the
+// vendor's .lg-img-wrap rule also sets width: 100%, which would otherwise win
+// out over just repositioning left/right. A smaller inset is used on narrow
+// screens so the image isn't overly cramped on phones.
+.lg-container .lg-outer .lg-img-wrap {
+  left: 15px;
+  right: 15px;
+  width: calc(100% - 30px);
+}
+@media screen and (min-width: 768px) {
+  .lg-container .lg-outer .lg-img-wrap {
+    left: 80px;
+    right: 80px;
+    width: calc(100% - 160px);
+  }
+}
+
+// Replace the vendor's gray box prev/next buttons with plain arrow glyphs.
+// margin-top is adjusted to re-center the larger glyph against top: 50%
+// (vendor's -10px offset assumed the old smaller, padded box).
+.lg-container .lg-next,
+.lg-container .lg-prev {
+  background-color: transparent;
+  border-radius: 0;
+  color: var(--dark);
+  padding: 0;
+  font-size: 32px;
+  margin-top: -16px;
+}
+.lg-container .lg-next:hover:not(.disabled),
+.lg-container .lg-prev:hover:not(.disabled) {
+  color: var(--theme);
 }

@@ -1,0 +1,53 @@
+2026-07-05 - assets/scss/_components.scss: Added .article_excerpt blockquote override
+  (strip quote-icon background/padding and inline margins) so the homepage hero
+  teaser renders blockquote-led post summaries as normal flowing text instead of
+  a narrow, tall column.
+2026-07-05 - assets/scss/_components.scss: Added margin-bottom to paragraphs inside
+  .article_excerpt blockquote to restore the visual gap between a quoted line and
+  its attribution line in the hero teaser (previously only provided by .post p
+  padding on the full post page).
+2026-07-05 - assets/scss/_components.scss: Added, then later removed, a
+  .lg-outer .lg-thumb-outer padding-top !important override intended to add space
+  between the displayed image and the lightGallery thumbnail strip. Superseded by
+  the allowMediaOverlap fix below; removed because it was offsetting individual
+  thumbnail images down within their boxes.
+2026-07-05 - layouts/partials/footer.html: Changed lightGallery's allowMediaOverlap
+  option from true to false so the displayed image is sized to leave room for the
+  caption and thumbnail strip, stacked without overlapping (title now appears below
+  the image and above the thumbnails).
+2026-07-05 - assets/scss/_components.scss: Added .lg-thumb-item img { margin: 0; }
+  override to fix a pre-existing bug (present in production) where the site's
+  global `img { margin: 15px auto; }` rule in _base.scss was pushing lightGallery
+  thumbnail images down within their fixed-height, overflow-hidden boxes, leaving a
+  blank band at the top of every thumbnail.
+2026-07-05 - assets/scss/_components.scss: Added .lg-outer .lg-sub-html
+  { padding-top: 25px; } to add breathing room between the displayed image and
+  its caption (tried 5px first, too subtle; 25px confirmed as the right amount).
+2026-07-05 - assets/scss/_components.scss: Added .lg-outer .lg-sub-html
+  { color: var(--dark); } so the caption text (previously light gray/white,
+  #eee from vendor CSS) is readable now that the backdrop is white.
+2026-07-05 - assets/scss/_components.scss: Added .lg-container .lg-backdrop
+  { background-color: #fff; } to change the gallery's full-screen backdrop
+  from black to white, overriding the vendored rule via a more specific
+  selector (no !important, no vendor file edits).
+2026-07-05 - assets/scss/_components.scss: Added .lg-container .lg-outer
+  .lg-thumb-outer { background-color: #fff; } to match the thumbnail strip's
+  background to the new white backdrop, same higher-specificity technique.
+2026-07-05 - Investigated why the thumbnail show/hide toggle button
+  disappeared after the allowMediaOverlap change: the vendor plugin
+  (lg-thumbnail.umd.js) explicitly disables toggleThumb whenever
+  allowMediaOverlap is false, since toggling wouldn't resize the image with
+  overlap off anyway. Decision: keep allowMediaOverlap: false and live without
+  the toggle button rather than reintroduce the caption/image overlap. No code
+  change made.
+2026-07-05 - assets/scss/_components.scss: Added a responsive
+  .lg-container .lg-outer .lg-img-wrap override (left/right: 15px, width:
+  calc(100% - 30px) by default; 80px/calc(100% - 160px) from 768px width up)
+  so the displayed image can never grow wide enough to sit directly under the
+  prev/next arrow buttons, with a smaller inset on phones so the image isn't
+  overly cramped.
+2026-07-05 - assets/scss/_components.scss: Restyled the prev/next buttons
+  (.lg-container .lg-next / .lg-prev) to remove the vendor's gray box
+  background/padding/border-radius, enlarged the arrow glyph, and set its
+  color to var(--dark) (var(--theme) on hover) so they read as plain arrows
+  against the white backdrop instead of barely-legible gray rectangles.
