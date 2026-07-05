@@ -8,5 +8,8 @@
         <img alt='{{ .title }}' src='{{ printf "/images/%s-0240.jpg" .root }}'>
         <div style="font-size: 12px">{{ .title }}</div>
     </a>
+    {{ if .break }}
+    <div class='post_gallery_break'></div>
+    {{ end }}
     {{ end }}
 </div>

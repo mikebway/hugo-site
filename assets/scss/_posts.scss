@@ -150,6 +150,10 @@
       padding: 0 1rem 0 0;
     }
   }
+  &_gallery_break {
+    flex-basis: 100%;
+    height: 0;
+  }
   &_gallery_note {
     p {
       font-size: 0.9rem;
