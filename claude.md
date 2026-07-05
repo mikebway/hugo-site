@@ -40,7 +40,9 @@ This project defines the structure and content of a statically generated photogr
 - For reference only, deployment is achieved using the the `sync.sh` script, but you should never run this script.
 
 ## Development Workflow
-- **Test:** `hugo server -D --config config.toml,private.toml`
+- **Test:** `hugo server -D -F --config config.toml,private.toml`
 - **Generate:** `hugo --config config.toml,private.toml`
+
+Note: `-F` (`--buildFuture`) is required because Hugo sometimes excludes recently-created pages even when their `date` is not in the future.
 
 
