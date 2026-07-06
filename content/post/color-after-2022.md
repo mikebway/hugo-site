@@ -1,5 +1,5 @@
 ---
-title: "Selected Color After 2022"
+title: "Color After 2022"
 feature: true
 weight: 9
 date: 2026-07-03T00:00:00-06:00
@@ -202,7 +202,7 @@ imglist:
 
 ---
 
-> "I immediately noticed that every photograph had something red in it. It was if he thought that if he loaded his camera with Kodachrome, he had to photograph something red."
+> "I immediately noticed that every photograph had something red in it. It was as though he thought that if he loaded his camera with Kodachrome, he had to photograph something red."
 >
 > Stephen Shore, Aperture No. 260
 

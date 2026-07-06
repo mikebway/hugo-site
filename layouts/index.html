@@ -74,7 +74,7 @@
 </div>
 <div class='wrap'>
   <br/>
-  <h1 class='post_title'>Older Series</h1>
+  <h1 class='post_title'>Themed Collections</h1>
   <div class='grid-2 article_showcase'>
     {{- range $index, $value := (where (where .Site.Pages "Section" "post") "Params.feature" false) }}
     {{ $bg := (absURL (printf "images/%s" .Params.image)) }}
