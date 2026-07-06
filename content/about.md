@@ -9,7 +9,7 @@ thumb: 'color-returning/0031-A7R00965-0096.jpg'
 >
 > ~ Robert Adams
 
-Mike Broadway is a some-time photographer, a partner, a parent (still learning how after 30 years), a software architect, a music lover (all kinds), a movie goer, a public radio supporter, and an occasional reader of long books. He grew up in Britain but has lived and worked in Austin, Texas, since 1990.
+Mike Broadway is a some-time photographer, a partner, a parent (still learning how after 30 years), a retired software architect, a music lover (all kinds), a movie goer, a public radio supporter, and an occasional reader of long books. He grew up in Britain but has lived and worked in Austin, Texas, since 1990.
 
 An archive of an earlier, less selective, version of this web site can be found at <http://archive.mikebroadway.com/>.
 

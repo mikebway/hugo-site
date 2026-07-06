@@ -2,7 +2,7 @@
 title: "Austin Jazz Adjacent"
 feature: false
 weight: 8
-date: 2019-12-28T12:03:00-06:00
+date: 2019-12-27T12:03:00-06:00
 image: 'jazz-adjacent/A7R04053-0900.jpg'
 thumb: 'jazz-adjacent/A7R04053-0096.jpg'
 bgpos: 'center'

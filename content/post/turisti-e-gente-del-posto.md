@@ -1,8 +1,8 @@
 ---
 title: "Turisti e Gente del Posto"
-feature: true
-weight: 9
-date: 2021-12-27T12:01:45-06:00
+feature: false
+weight: 8
+date: 2021-12-28T12:01:45-06:00
 image: 'turisti-e-gente-del-posto/0001-A7R05785-0900.jpg'
 thumb: 'turisti-e-gente-del-posto/0001-A7R05785-0096.jpg'
 bgpos: '25% 25%'
