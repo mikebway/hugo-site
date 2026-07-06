@@ -58,3 +58,9 @@
   100%; height: 0; }, a zero-height full-width flex item that forces the post
   gallery's thumbnail grid to start a new row at that point, giving manual
   control over how many thumbnails appear per row.
+2026-07-05 - assets/scss/_posts.scss: Added a scoped `.post ul { list-style:
+  disc; padding: 1rem 1.25rem 1rem 2.25rem; }` rule so markdown bullet lists
+  in post content (e.g. content/post/jazz-adjacent.md) display their bullets
+  again. The global `ul { list-style: none; }` reset in _base.scss (meant for
+  nav menus) was stripping them; `ol` already had an equivalent post-scoped
+  padding override but `ul` did not.

@@ -1,5 +1,5 @@
 ---
-title: "Color Ongoing"
+title: "Selected Color After 2022"
 feature: true
 weight: 9
 date: 2026-07-03T00:00:00-06:00
@@ -202,16 +202,16 @@ imglist:
 
 ---
 
+> "I immediately noticed that every photograph had something red in it. It was if he thought that if he loaded his camera with Kodachrome, he had to photograph something red."
+>
+> Stephen Shore, Aperture No. 260
+
 >"I knew red was the most difficult color to work with."
 > 
 > William Eggleston
 
-> "I immediately noticed that every photograph had something red in it. It was if he thought that if he loaded his camera with Kodachrome, he had to photograph something red."
-> 
-> Stephen Shore, Aperture No. 260
-
 For 35 years, Kodachrome 64 was my film of choice. I could not afford much of it, maybe 20 rolls, 720 frames, a year; 
 usually less. I mostly photographed landscapes back then, so red was not much of a problem. Now, I mostly photograph people
-on the street in black and white, but when I do allow color into my frame, the reds do pop.
+on the street in black and white, but when I do allow color into my frame, the reds do shout.
 
 {{< gallery >}}
