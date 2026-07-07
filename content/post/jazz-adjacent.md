@@ -8,10 +8,20 @@ thumb: 'jazz-adjacent/A7R04053-0096.jpg'
 bgpos: 'center'
 caption: "Austin, 2022"
 imglist:
+- root: 2025/0103-L1060946
+  title: Monks Jazz Club, Austin, 2025
+- root: 2025/0104-L1060997
+  title: Monks Jazz Club, Austin, 2025
+- root: 2025/0001-L1031754-Enhanced-NR
+  title: Monks Jazz Club, Austin, 2025
+  break: true
+  
 - root: 2023/1000-L1000435-Enhanced-NR
   title: Christian Wiggs Big Band, Monks Jazz Club, 2023
 - root: 2023/1001-L1000401
   title: Christian Wiggs Big Band, Monks Jazz Club, 2023
+  break: true
+
 - root: jazz-adjacent/A7R04053
   title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R04857
@@ -24,16 +34,14 @@ imglist:
   title: Elephant Room, Austin, 2022
 - root: jazz-adjacent/A7R04012
   title: Elephant Room, Austin, 2022
-- root: jazz-adjacent/A7R04046
-  title: Elephant Room, Austin, 2022
 - root: 2023/1004-L1000212-Enhanced-NR
   title: Parker Jazz Club, Austin, 2023
+- root: jazz-adjacent/A7R04046
+  title: Elephant Room, Austin, 2022
 - root: 2023/1006-L1000033-Enhanced-NR
   title: Central Market North, Austin, 2023
 - root: 2023/1007-L1000030
   title: Central Market North, Austin, 2023
-- root: 2025/0001-L1031754-Enhanced-NR
-  title: Monks Jazz Club, Austin, 2025
 ---
 
 > If you have to ask what jazz is, you'll never know.
