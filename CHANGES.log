@@ -138,5 +138,17 @@
   .nav, which previously had no background at all (fully transparent) —
   necessary now that the header is fixed in place and page content scrolls
   underneath it.
+2026-07-08 - assets/scss/_base.scss: Added `html { -webkit-text-size-adjust:
+  100%; }` to fix blockquote indentation (5rem on .post blockquote plus 4rem
+  on the inner p, from _posts.scss/_base.scss) appearing far wider on mobile
+  phones (both Safari and Chrome for iOS) than on iPad/desktop. Cause: iOS
+  requires all browsers to use Apple's WebKit engine, which by default
+  auto-inflates the effective root font-size on narrow viewports for
+  legibility; since the blockquote margins are defined in rem (relative to
+  that root font-size), the same "9rem" computed to more actual pixels on
+  the phone than on wider viewports where the inflation doesn't trigger.
+  Disabling the auto-inflation keeps rem-based sizing proportionally
+  consistent across devices instead of masking the symptom with a
+  mobile-specific margin override.
   width; only the small-image width setting was kept, changed to
   calc(33.33% - 1rem) so three small images fill a 930px row.)
