@@ -7,6 +7,12 @@ image: '2026/0034-L1090070-0900.jpg'
 thumb: '2026/0034-L1090070-0096.jpg'
 bgpos: 'center'
 caption: "Nimes, France, 2026"
+build:
+  render: always
+  list: never
+  publishResources: true
+sitemap:
+  disable: true
 imglist:
 - root: 2026/0034-L1090070
   title: Nimes, France, 2026
