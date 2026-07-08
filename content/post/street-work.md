@@ -254,11 +254,21 @@ imglist:
 > 
 > ~ Burk Uzzle
 
-When I put this gallery together in July of 2026, there were 781 black & white photographs on this site. This page is not intended to 
-be a "best of," though most of my favorite images are here, it's more of a survey or cross-section of fourteen 
-years making candid "street" pictures. 
+### A Survey
 
-Of all the people shown here, the only person that I asked permission from is the cook taking a cigarette break 
-in Paris, 2012.
+When I put this gallery together in July of 2026, there were 781 black & white photographs on this site. This page is not intended to 
+be a "best of," though most of my favorite images are here. This is a survey, a cross-section, of fourteen 
+years making candid "street" pictures of people in public places. 
+
+### Not Fake, Not Doc
+
+None of the photographs shown here were staged, but this is not documentary work. As Gary Winogrand said, when you put 
+four edges around some facts, you change those facts. The pictures tell you nothing reliable about the individuals in 
+them; a person may appear angry or sad, but was laughing the instant before the shutter opened, and smiling the instant
+after the shutter closed.  
+
+I know the name and story of only one person in one photograph, my wife; she did not know that I was taking her 
+picture as she listened to a friend. The only person that I spoke to before taking their picture is the cook having 
+a cigarette break in Paris, 2012.
 
 {{< exhibit >}}
