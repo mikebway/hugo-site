@@ -64,3 +64,28 @@
   again. The global `ul { list-style: none; }` reset in _base.scss (meant for
   nav menus) was stripping them; `ol` already had an equivalent post-scoped
   padding override but `ul` did not.
+2026-07-07 - layouts/shortcodes/exhibit.html: New shortcode, modeled on
+  gallery.html, for posts that want their on-page images shown at the wider
+  -0450.jpg resolution instead of gallery's -0240.jpg thumbnail. Reuses
+  gallery's id='lightgallery' and lightbox href/data-srcset so the existing
+  lightGallery init code and CSS keep working unchanged.
+2026-07-07 - layouts/shortcodes/exhibit.html + assets/scss/_posts.scss: Gave
+  exhibit its own post_exhibit / post_exhibit_break classes (previously
+  reused gallery's post_gallery / post_gallery_break) and a matching
+  &_exhibit block in _posts.scss, so its layout could diverge from
+  gallery.html's without touching gallery's CSS. Container capped at
+  max-width: 930px !important, with each thumbnail <a> forced to
+  calc(50% - 1rem) width (two per row, with a 1rem gap) and its <img> scaled
+  to width: 100% of that column.
+2026-07-07 - layouts/shortcodes/exhibit.html + assets/scss/_posts.scss: Added
+  an opt-in `small: true` field for imglist entries, matching the existing
+  `break: true` convention. Flagged entries get class='small' on their <a>,
+  overridden in CSS to calc(33.33% - 1rem) width, letting three small images
+  sit side by side within the same 930px container that otherwise shows two
+  full-width images per row. (Briefly tried widening the container to 1410px
+  to fit three full-width images per row, and separately tried scaling the
+  default/small anchor widths to 33.33%/18.15% for that wider container, but
+  a higher-level layout div constrains the available width, so both of those
+  changes were reverted back to max-width: 930px and the default 50% anchor
+  width; only the small-image width setting was kept, changed to
+  calc(33.33% - 1rem) so three small images fill a 930px row.)

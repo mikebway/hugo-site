@@ -1,0 +1,15 @@
+<div class='post_gallery_note'>
+    <p>Tap any image to see the full size images, then navigate with the right and left cursor keys, or with the mouse ...</p>
+</div>
+<div id='lightgallery' class='post_exhibit'>
+    {{ range .Page.Params.imglist }}
+    <a {{ if .small }}class='small' {{ end }}href='{{ printf "/images/%s-0450.jpg" .root }}'
+        data-srcset='{{ printf "/images/%s-0450.jpg 450w," .root }}{{ printf "/images/%s-0900.jpg 900w," .root }}{{ printf "/images/%s-1200.jpg 1200w," .root }}{{ printf "/images/%s-1920.jpg 1920w" .root }}'>
+        <img alt='{{ .title }}' src='{{ if .small }}{{ printf "/images/%s-0240.jpg" .root }}{{ else }}{{ printf "/images/%s-0450.jpg" .root }}{{ end }}'>
+        <div style="font-size: 12px">{{ .title }}</div>
+    </a>
+    {{ if .break }}
+    <div class='post_exhibit_break'></div>
+    {{ end }}
+    {{ end }}
+</div>
