@@ -254,6 +254,11 @@ imglist:
 > 
 > ~ Burk Uzzle
 
+When I put this gallery together in July of 2026, there were 781 black & white photographs on this site. This page is not intended to 
+be a "best of," though most of my favorite images are here, it's more of a survey or cross-section of fourteen 
+years making candid "street" pictures. 
 
+Of all the people shown here, the only person that I asked permission from is the cook taking a cigarette break 
+in Paris, 2012.
 
 {{< exhibit >}}

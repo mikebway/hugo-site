@@ -24,9 +24,4 @@
   &[data-mode="dark"] {
     @include darkmode;
   }
-  @media (prefers-color-scheme: dark) { 
-    &:not([data-mode="lit"]) {
-      @include darkmode;
-    }
-  }
 }
