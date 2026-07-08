@@ -271,4 +271,9 @@ I know the name and story of only one person in one photograph, my wife; she did
 picture as she listened to a friend. The only person that I spoke to before taking their picture is the cook having 
 a cigarette break in Paris, 2012.
 
+See the [note at the bottom of the page](#ai-correction) for more information about the one photograph on this page where AI focus 
+correction was applied. The use of AI is clearly marked in its caption. 
+
 {{< exhibit >}}
+
+{{< ai-correction >}}
