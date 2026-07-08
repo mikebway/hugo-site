@@ -89,3 +89,54 @@
   changes were reverted back to max-width: 930px and the default 50% anchor
   width; only the small-image width setting was kept, changed to
   calc(33.33% - 1rem) so three small images fill a 930px row.)
+2026-07-07 - assets/scss/_posts.scss: Fixed the exhibit thumbnail grid
+  appearing shifted left of center. Cause: each <a>'s `padding: 0 1rem 1rem 0`
+  only added a gap-simulating margin on its own right/bottom side, so the
+  last item in a row had a trailing padding gap with nothing after it to
+  balance, throwing off `justify-content: center`'s math. Replaced the
+  per-anchor padding with `gap: 1rem` on the .post_exhibit container (which
+  never adds trailing space) and rebalanced column widths to
+  calc(50% - 0.5rem) (default, two per row) and calc((100% - 2rem) / 3)
+  (small, three per row) so N columns plus their gaps sum to exactly 100%.
+2026-07-07 - assets/scss/_posts.scss: Changed .post_exhibit a img from a
+  forced `width: 100%` to `max-width: 100%` plus `margin: 0 auto`, so an
+  image never renders larger than its native resolution. Needed because
+  -0450.jpg files preserve aspect ratio by capping the *longest* edge at
+  450px, so a portrait image's native width is well under 450px; forcing
+  width: 100% of a column sized for a 450px-wide landscape image stretched
+  those portrait images past their native size.
+2026-07-07 - assets/scss/_posts.scss: Added `min-width: 0` to .post_exhibit a
+  to override the flex item's default `min-width: auto`, which otherwise
+  prevents a flex item from shrinking below the intrinsic width of an image
+  inside it — relevant for the narrower `small` columns.
+2026-07-07 - layouts/shortcodes/exhibit.html: Found the actual cause of the
+  three-small-images-overlapping bug: `small: true` entries were still
+  loading the full -0450.jpg file for the on-page thumbnail, so the browser
+  was laying out full-resolution (450px-wide) images inside ~299px columns
+  regardless of the CSS width/gap/min-width fixes above. Changed the
+  template so small-flagged entries load -0240.jpg instead for the on-page
+  <img> (the lightbox's href/data-srcset are unchanged, still using the full
+  -0450/-0900/-1200/-1920 variants).
+2026-07-08 - assets/scss/_variables.scss: Removed the
+  `@media (prefers-color-scheme: dark)` rule so every page always renders in
+  light mode, regardless of the visitor's OS/browser dark-mode setting.
+  Cause: this project's own layouts/partials/nav.html override never
+  includes the theme's manual dark-mode toggle (themes/newsroom/layouts/
+  partials/mode.html), so dark mode was only ever triggered automatically by
+  system preference — reported after a visitor's iPad (set to dark mode)
+  showed a black site background behind lightGallery's still-white viewer,
+  which has no dark-mode awareness at all. The dormant `[data-mode="dark"]`
+  rule/mixin was left in place (harmless; unreachable without a toggle
+  control) in case a manual toggle is added back later.
+2026-07-08 - assets/scss/_nav.scss: Changed .nav from `position: absolute` to
+  `position: fixed` so the header stays visible while scrolling long pages
+  instead of scrolling away with the content. No other layout changes were
+  needed since the header was already out of normal document flow, with
+  manually-tuned clearance margins elsewhere (.mt, .mt-6, .pt-6) already
+  accounting for that.
+2026-07-08 - assets/scss/_nav.scss: Added `background-color: var(--bg)` to
+  .nav, which previously had no background at all (fully transparent) —
+  necessary now that the header is fixed in place and page content scrolls
+  underneath it.
+  width; only the small-image width setting was kept, changed to
+  calc(33.33% - 1rem) so three small images fill a 930px row.)
