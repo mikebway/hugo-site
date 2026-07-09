@@ -48,7 +48,8 @@
   }
   &_inner {
     a{
-      color: var(--theme);
+      color: var(--link);
+      font-weight: bold;
       transition: all 0.3s;
       &:hover {
         opacity: 0.8;
