@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class='wrap mt'>
+  <div class='post_inner'>
+    <h1 class='post_title'>{{ .Title }}</h1>
+    {{ with .Params.image }}
+    <img src='{{ absURL (printf "images/%s" .) }}' alt='{{ $.Title }}' class='post_thumbnail'>
+    {{ end }}
+    {{ with .Params.caption }}
+    <div style="text-align: right; margin-right: 5em">{{ . }}</div>
+    {{ end }}
+    {{ .Content }}
+    {{ with .Params.panel }}
+    {{ with $.Site.GetPage . }}
+    <p>From the gallery: <a href='{{ .Permalink }}'>{{ .Title }}</a>. Higher resolution versions of the image are
+       available by clicking on its thumbnail in the gallery page.</p>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
