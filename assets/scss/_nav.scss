@@ -1,7 +1,8 @@
 .nav{
   position:fixed;
   top:0;
-  width:100%;
+  left:0;
+  width:100vw;
   background-color: var(--bg);
   transition:height 0.4s cubic-bezier(0.52, 0.16, 0.24, 1);
   z-index:999;
@@ -67,8 +68,8 @@
     position: relative;
     padding:10px 25px;
     height:100%;
-    max-width: 1200px;
-    margin:0 auto;
+    max-width: 1224px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;

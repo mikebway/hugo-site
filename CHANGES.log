@@ -161,6 +161,22 @@
   to `.post_inner a`. Along the way, confirmed (by turning --theme blue and
   finding regular body text unaffected) that body text color comes from
   `body { color: var(--text) }` in _base.scss, unrelated to `--theme`.
+2026-07-09 - assets/scss/_variables.scss: Changed `--link` from navy
+  (#000080) to black (#000), keeping the bold weight set previously.
+2026-07-09 - assets/scss/_nav.scss: Fixed the header (title/subtitle/email
+  vs. the nav_bar hamburger icon) not staying centered on the page at wide
+  viewports. Root cause: `.nav { position: fixed; width: 100% }` was
+  resolving its 100% against `body`'s box (`max-width: 1440px; margin: 0
+  auto`, which is narrower than and offset from the real viewport once the
+  window exceeds 1440px) rather than the true browser viewport — a real
+  browser quirk with fixed-position descendants of a width-constrained,
+  auto-centered ancestor, confirmed by isolating minimal repro cases outside
+  the site. Fixed by switching `.nav` to `width: 100vw; left: 0;`, which
+  anchors it to the actual viewport regardless of body's box. Also widened
+  `.nav-menu`'s `max-width` from the initial 1024px (matching `.wrap`, which
+  made title and nav_bar feel too close together) to 1224px, so the header
+  is a fixed ~200px wider than the `.wrap` content column and centers
+  independently once the window narrows below that.
 2026-07-07 - layouts/shortcodes/ai-correction.html: New shortcode extracting
   the "Use of AI image correction" section from
   content/post/turisti-e-gente-del-posto.md into a fully static, reusable
