@@ -177,6 +177,31 @@
   made title and nav_bar feel too close together) to 1224px, so the header
   is a fixed ~200px wider than the `.wrap` content column and centers
   independently once the window narrows below that.
+2026-07-11 - layouts/shortcodes/gallery.html + assets/scss/_posts.scss: Added
+  an optional per-image `size` field (small/medium/large) to the gallery
+  shortcode's imglist entries, modeled on exhibit.html's existing `small`
+  flag. Default (unset, or `small`) renders exactly as before — `-0240.jpg`
+  src, no class — so existing pages are unaffected. `medium` uses
+  `-0450.jpg` (native 450px, no CSS cap needed); `large` uses `-0900.jpg`
+  capped to a 700px display width via a new `.post_gallery a.large img`
+  rule. The lightbox's `data-srcset` (all four resolutions) is unchanged by
+  `size` — only the grid thumbnail is affected.
+2026-07-10/11 - layouts/singles/single.html (new) + content/singles/l1081449.md
+  (new): New one-off page type for linking a single image (e.g. for a
+  magazine submission) at a stable URL, with the site's normal layout
+  instead of a raw image link. Section `singles` auto-selects this template
+  with no per-page `layout:` front matter needed. Page shows the image
+  (capped by the existing `.wrap`/`.post` CSS, so `-1200.jpg` is used
+  instead of `-1920.jpg` — no visible difference at that width, smaller
+  payload) under a `post_title` heading (flush left, matching the image's
+  left edge — required dropping the shared `post` class from the wrapper,
+  since sitewide `.post h1 { max-width: 840px !important; margin: auto }`
+  was centering it in a narrower column), followed by a `From the gallery:
+  <a>` line whose text/link are resolved live via `.Site.GetPage` against a
+  `panel` front-matter param (currently "/post/street-work"), not hardcoded.
+  First page is unlisted/link-only (`build.render: always`, `list: never`,
+  `sitemap.disable`), matching the existing pinboard.md convention, and is
+  meant as the template for any future one-off image pages.
 2026-07-07 - layouts/shortcodes/ai-correction.html: New shortcode extracting
   the "Use of AI image correction" section from
   content/post/turisti-e-gente-del-posto.md into a fully static, reusable

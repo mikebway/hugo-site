@@ -3,9 +3,10 @@
 </div>
 <div id='lightgallery' class='post_gallery'>
     {{ range .Page.Params.imglist }}
-    <a href='{{ printf "/images/%s-0450.jpg" .root }}'
+    {{ $size := .size | default "small" }}
+    <a {{ if ne $size "small" }}class='{{ $size }}' {{ end }}href='{{ printf "/images/%s-0450.jpg" .root }}'
         data-srcset='{{ printf "/images/%s-0450.jpg 450w," .root }}{{ printf "/images/%s-0900.jpg 900w," .root }}{{ printf "/images/%s-1200.jpg 1200w," .root }}{{ printf "/images/%s-1920.jpg 1920w" .root }}'>
-        <img alt='{{ .title }}' src='{{ printf "/images/%s-0240.jpg" .root }}'>
+        <img alt='{{ .title }}' src='{{ if eq $size "medium" }}{{ printf "/images/%s-0450.jpg" .root }}{{ else if eq $size "large" }}{{ printf "/images/%s-0900.jpg" .root }}{{ else }}{{ printf "/images/%s-0240.jpg" .root }}{{ end }}'>
         <div style="font-size: 12px">{{ .title }}</div>
     </a>
     {{ if .break }}

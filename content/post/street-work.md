@@ -260,7 +260,7 @@ When I put this gallery together in July of 2026, there were 781 black & white p
 be a "best of," though most of my favorite images are here. This is a survey, a cross-section, of fourteen 
 years making candid "street" pictures of people in public places. 
 
-### Not Fake, Not Doc
+### Not Fakes, Not Documents
 
 None of the photographs shown here were staged, but this is not documentary work. As Gary Winogrand said, when you put 
 four edges around some facts, you change those facts. The pictures tell you nothing reliable about the individuals in 

@@ -153,6 +153,12 @@
     text-align: center;
     a {
       padding: 0 1rem 0 0;
+      &.medium img {
+        width: 450px;
+      }
+      &.large img {
+        width: 700px;
+      }
     }
   }
   &_gallery_break {
